@@ -432,41 +432,41 @@ Example:
     bind 'esc', single_selection
       si num_selections != 1
     bind 'esc', clear_fields
-      si has_next_field ## true
-      ou has_prev_field ## true
+      si has_next_field == true
+      ou has_prev_field == true
     bind 'esc', hide_panel(cancel: true)
-      si panel_visible ## true
+      si panel_visible == true
     bind 'esc', hide_overlay
-      si overlay_visible ## true
+      si overlay_visible == true
     bind 'esc', hide_auto_complete
-      si auto_complete_visible ## true
+      si auto_complete_visible == true
 
     bind 'tab', insert_best_completion(default: "\t", exact: true)
     bind 'tab', insert_best_completion(default: "\t", exact: false)
-      si setting.tab_completion ## true
+      si setting.tab_completion == true
     bind 'tab', replace_completion_with_next_completion
-      si last_command ## "insert_best_completion"
-      et setting.tab_completion ## true
+      si last_command == "insert_best_completion"
+      et setting.tab_completion == true
     bind 'tab', reindent
-      si setting.auto_indent ## true
-      et all.selection_empty ## true
+      si setting.auto_indent == true
+      et all.selection_empty == true
       et all.preceding_text =~ /\A\z/
       et all.following_text =~ /\A\z/
     bind 'tab', indent
       si text =~ /\n/
     bind 'tab', next_field
-      si has_next_field ## true
+      si has_next_field == true
     bind 'tab', commit_completion
       si auto_complete_visible
       et setting.auto_complete_commit_on_tab
 
     bind 'shift+tab', insert(characters: "\t")
     bind 'shift+tab', unindent
-      si setting.shift_tab_unindent ## true
+      si setting.shift_tab_unindent == true
       ou preceding_text =~ /\A[\t ]*\z/
       ou text =~ /\n/
     bind 'shift+tab', prev_field
-      si has_prev_field ## true
+      si has_prev_field == true
 
   end
 ```
