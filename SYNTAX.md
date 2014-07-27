@@ -3,34 +3,6 @@ This preliminary documentation supposes you are familiar with the configuration 
 of TextMate (grammars, preferences, snippets and themes) and Sublime Text (commands,
 keymaps, mousemaps, menus, settings).
 
-## General Design
-
-### Import: Converting to DSL
-
-When importing a ST package, some files are grouped into one DSL file:
-
-- all macros (*.sublime-macro) are grouped into macros.rb
-- all snippets (*.sublime-snippet, *.tmSnippet) are grouped into snippets.rb
-- all commands (*.sublime-commands) are grouped into commands.rb
-- all preferences (*.tmPreferences) are grouped into preferences.rb
-- all settings (*.sublime-settings) are grouped into settings.rb
-
-Other files generate one DSL file:
-
-- *.tmLanguage => *.tmLanguage.rb
-- *.sublime-menu => *.menu.rb
-- *.sublime-keymap => *.keymap.rb
-- *.sublime-mousemap => *.mousemap.rb
-
-Finally, files with an extension not listed above (e.g., *.py) are copied "as is".
-In particular, there is no DSL (yet?) for *.sublime-build and *.sublime-completions.
-
-### Export: Converting from DSL
-
-The export processes all *.rb files located in the DSL directory, and copies
-other files "as is". Therefore, the organization of DSL files is free: a whole
-package can be specified into one source file, or into several source files.
-
 ## Grammars
 
 Grammars are defined with the `language` method:
