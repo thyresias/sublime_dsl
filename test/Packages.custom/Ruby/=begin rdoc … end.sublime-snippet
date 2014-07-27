@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[=begin rdoc
+	$0
+=end]]></content>
+	<tabTrigger>=b</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>=begin rdoc … end</description>
+</snippet>

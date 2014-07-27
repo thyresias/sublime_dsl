@@ -1,0 +1,22 @@
+[
+  {"button":"button1","count":1,"press_command":"drag_select"},
+  {"button":"button1","modifiers":["shift"],"press_command":"drag_select","press_args":{"extend":true}},
+  {"button":"button1","modifiers":["super"],"count":1,"press_command":"drag_select","press_args":{"additive":true}},
+  {"button":"button1","modifiers":["shift","super"],"count":1,"press_command":"drag_select","press_args":{"subtractive":true}},
+  {"button":"button1","count":2,"press_command":"drag_select","press_args":{"by":"words"}},
+  {"button":"button1","modifiers":["super"],"count":2,"press_command":"drag_select","press_args":{"by":"words","additive":true}},
+  {"button":"button1","modifiers":["shift","super"],"count":2,"press_command":"drag_select","press_args":{"by":"words","subtractive":true}},
+  {"button":"button1","count":3,"press_command":"drag_select","press_args":{"by":"lines"}},
+  {"button":"button1","modifiers":["super"],"count":3,"press_command":"drag_select","press_args":{"by":"lines","additive":true}},
+  {"button":"button1","modifiers":["shift","super"],"count":3,"press_command":"drag_select","press_args":{"by":"lines","subtractive":true}},
+  {"button":"button1","modifiers":["alt"],"press_command":"drag_select","press_args":{"by":"columns"}},
+  {"button":"button1","modifiers":["alt","super"],"press_command":"drag_select","press_args":{"by":"columns","additive":true}},
+  {"button":"button1","modifiers":["shift","alt","super"],"press_command":"drag_select","press_args":{"by":"columns","subtractive":true}},
+  {"button":"button3","press_command":"drag_select","press_args":{"by":"columns"}},
+  {"button":"button3","modifiers":["super"],"press_command":"drag_select","press_args":{"by":"columns","additive":true}},
+  {"button":"button3","modifiers":["shift","super"],"press_command":"drag_select","press_args":{"by":"columns","subtractive":true}},
+  {"button":"button4","command":"prev_view"},
+  {"button":"button5","command":"next_view"},
+  {"button":"button2","press_command":"context_menu"},
+  {"button":"button1","modifiers":["ctrl"],"count":1,"press_command":"context_menu"}
+]

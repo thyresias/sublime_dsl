@@ -1,0 +1,173 @@
+unexpected keys in test/Packages.textmate/ActionScript/AS MovieClip.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS nextFrame.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS nextScene.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS on.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS onClipEvent.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS play.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS prevFrame.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS prevScene.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS print.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS printAsBitmap.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS printAsBitmapNum.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS printNum.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS removeMovieClip.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS return.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS setProperty.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS setVariable.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS startDrag.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS stop.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS stopAllSounds.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS stopDrag.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS switch.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS tellTarget.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS throw.tmSnippet: {"inputPattern"=>"MovieClip"}
+unexpected keys in test/Packages.textmate/ActionScript/AS toggleHighQuality.tmSnippet: {"inputPattern"=>"MovieClip"}
+snippet Check that UI Scripting is Enabled: no tab trigger nor key equivalent
+snippet Select Menu Item with UI Scripting: no tab trigger nor key equivalent
+snippet Split/Join Helper Functions: no tab trigger nor key equivalent
+snippet asp:TemplateColumn Checkbox: illegal XML character "\e" replaced by 'ESC'
+snippet Function: illegal XML character "\e" replaced by 'ESC'
+snippet SQLDataReader Loop: illegal XML character "\e" replaced by 'ESC'
+snippet Sub (group selection): illegal XML character "\e" replaced by 'ESC'
+snippet asp:BoundColumn: illegal XML character "\e" replaced by 'ESC'
+snippet asp:TemplateColumn: illegal XML character "\e" replaced by 'ESC'
+snippet Hilight Search Terms(TEXT): illegal XML character "\e" replaced by 'ESC'
+snippet MM:DataGrid Sort Page Edit: illegal XML character "\e" replaced by 'ESC'
+snippet MM:DataGrid Sort Page Search: illegal XML character "\e" replaced by 'ESC'
+snippet Regex.Replace(): illegal XML character "\e" replaced by 'ESC'
+snippet Response.Write(): illegal XML character "\e" replaced by 'ESC'
+snippet ServerVariables: illegal XML character "\e" replaced by 'ESC'
+snippet SqlCommand: illegal XML character "\e" replaced by 'ESC'
+snippet SQLDataReader Bound: illegal XML character "\e" replaced by 'ESC'
+snippet String.Format(): illegal XML character "\e" replaced by 'ESC'
+snippet vbCrLf: illegal XML character "\u0003" replaced by 'ETX'
+snippet New Item: illegal XML character "\u0003" replaced by 'ETX'
+invalid capture in grammar Language Grammar: {"patterns"=>[{"include"=>"#scope"}]}
+grammar C++: 'both' capture 1 => "keyword.control.namespace.$2" moved to 'to' ('from' has 1 => "storage.type.c++")
+invalid capture in grammar C++: {"patterns"=>[{"match"=>"(public|protected|private)", "name"=>"storage.type.modifier.c++"}, {"match"=>"[_A-Za-z][_A-Za-z0-9]*", "name"=>"entity.name.type.inherited.c++"}]}
+grammar CoffeeScript (Literate): "injections" is not supported
+grammar CoffeeScript (Literate): no 'begin' nor 'match': {"name"=>"markup.raw.block.markdown", "patterns"=>[{"include"=>"#coffee_script"}]}
+invalid capture in grammar CoffeeScript (Literate): {"patterns"=>[{"captures"=>{"1"=>{"name"=>"variable.parameter.function.coffee"}, "2"=>{"name"=>"punctuation.separator.key-value.coffee"}, "3"=>{"name"=>"string.quoted.double.coffee"}, "4"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "5"=>{"name"=>"punctuation.definition.string.end.coffee"}, "6"=>{"name"=>"string.quoted.single.coffee"}, "7"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "8"=>{"name"=>"punctuation.definition.string.end.coffee"}}, "match"=>"([^()\\s,]+)\\s+(=)\\s+(?:((\")[^\"]*(\"))|((')[^']*(')))"}, {"match"=>"[^()\\s,]+", "name"=>"variable.parameter.function.coffee"}, {"match"=>",", "name"=>"punctuation.separator.arguments.coffee"}]}
+invalid capture in grammar CoffeeScript (Literate): {"patterns"=>[{"captures"=>{"1"=>{"name"=>"variable.parameter.function.coffee"}, "2"=>{"name"=>"punctuation.separator.key-value.coffee"}, "3"=>{"name"=>"string.quoted.double.coffee"}, "4"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "5"=>{"name"=>"punctuation.definition.string.end.coffee"}, "6"=>{"name"=>"string.quoted.single.coffee"}, "7"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "8"=>{"name"=>"punctuation.definition.string.end.coffee"}}, "match"=>"([^()\\s,]+)\\s+(=)\\s+(?:((\")[^\"]*(\"))|((')[^']*(')))"}, {"match"=>"[^()\\s,]+", "name"=>"variable.parameter.function.coffee"}, {"match"=>",", "name"=>"punctuation.separator.arguments.coffee"}]}
+grammar CoffeeScript: "injections" is not supported
+invalid capture in grammar CoffeeScript: {"patterns"=>[{"captures"=>{"1"=>{"name"=>"variable.parameter.function.coffee"}, "2"=>{"name"=>"punctuation.separator.key-value.coffee"}, "3"=>{"name"=>"string.quoted.double.coffee"}, "4"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "5"=>{"name"=>"punctuation.definition.string.end.coffee"}, "6"=>{"name"=>"string.quoted.single.coffee"}, "7"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "8"=>{"name"=>"punctuation.definition.string.end.coffee"}}, "match"=>"([^()\\s,]+)\\s+(=)\\s+(?:((\")[^\"]*(\"))|((')[^']*(')))"}, {"match"=>"[^()\\s,]+", "name"=>"variable.parameter.function.coffee"}, {"match"=>",", "name"=>"punctuation.separator.arguments.coffee"}]}
+invalid capture in grammar CoffeeScript: {"patterns"=>[{"captures"=>{"1"=>{"name"=>"variable.parameter.function.coffee"}, "2"=>{"name"=>"punctuation.separator.key-value.coffee"}, "3"=>{"name"=>"string.quoted.double.coffee"}, "4"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "5"=>{"name"=>"punctuation.definition.string.end.coffee"}, "6"=>{"name"=>"string.quoted.single.coffee"}, "7"=>{"name"=>"punctuation.definition.string.begin.coffee"}, "8"=>{"name"=>"punctuation.definition.string.end.coffee"}}, "match"=>"([^()\\s,]+)\\s+(=)\\s+(?:((\")[^\"]*(\"))|((')[^']*(')))"}, {"match"=>"[^()\\s,]+", "name"=>"variable.parameter.function.coffee"}, {"match"=>",", "name"=>"punctuation.separator.arguments.coffee"}]}
+grammar ColdFusion: "injections" is not supported
+grammar ColdFusion: no such fragment: "#javascript"
+snippet Continue Block Comment: illegal XML character "\u0003" replaced by 'ETX'
+grammar D: no 'begin' nor 'match': {"disabled"=>1, "patterns"=>[{"include"=>"source.regexp.python"}]}
+unexpected keys in test/Packages.textmate/Doxygen/Class PHP doc only.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+grammar Eiffel: no such fragment: "#all-types"
+grammar Eiffel: no such fragment: "#all-types"
+snippet (Case/Receive/Try Clause): no tab trigger nor key equivalent
+snippet (Fun Clause): no tab trigger nor key equivalent
+snippet (Function Clause): no tab trigger nor key equivalent
+snippet (If Clause): no tab trigger nor key equivalent
+snippet Continue Block Comment: illegal XML character "\u0003" replaced by 'ETX'
+grammar Groovy: 'both' capture 1 => "keyword.other.import.groovy" ignored: 'from' and 'to' already given
+grammar Groovy: 'both' capture 1 => "keyword.other.import.groovy" ignored: 'from' and 'to' already given
+grammar Groovy: no 'begin' nor 'match': {"applyEndPatternLast"=>1, "patterns"=>[{"begin"=>"(?x:(?=\n                        (?:\n                            (?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final) # visibility/modifier\n                                |\n                            (?:def)\n                                |\n                            (?:void|boolean|byte|char|short|int|float|long|double)\n                                |\n                            (?:(?:[a-z]\\w*\\.)*[A-Z]+\\w*) # object type\n                        )\n                        \\s+\n                        [\\w\\d_<>\\[\\],\\s]+\n                        (?:=|$)\n                        \n        \t\t\t))", "end"=>";|$", "name"=>"meta.definition.variable.groovy", "patterns"=>[{"match"=>"\\s"}, {"captures"=>{"1"=>{"name"=>"constant.variable.groovy"}}, "match"=>"([A-Z_0-9]+)\\s+(?=\\=)"}, {"captures"=>{"1"=>{"name"=>"meta.definition.variable.name.groovy"}}, "match"=>"(\\w[^\\s,]*)\\s+(?=\\=)"}, {"begin"=>"=", "beginCaptures"=>{"0"=>{"name"=>"keyword.operator.assignment.groovy"}}, "end"=>"$", "patterns"=>[{"include"=>"#groovy-code"}]}, {"captures"=>{"1"=>{"name"=>"meta.definition.variable.name.groovy"}}, "match"=>"(\\w[^\\s=]*)(?=\\s*($|;))"}, {"include"=>"#groovy-code"}]}]}
+invalid rule keys in grammar Groovy: {"applyEndPatternLast"=>1}
+invalid capture in grammar Haskell: {"patterns"=>[{"match"=>"[\\p{Ll}_][\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}']*", "name"=>"entity.name.function.haskell"}, {"include"=>"#infix_op"}]}
+grammar HTML: "injections" is not supported
+snippet Wrap in <?= … ?>: no tab trigger nor key equivalent
+unknown key in grammar Hyperlink: "injectionSelector"
+grammar JavaServer Pages: "injections" is not supported
+invalid rule keys in grammar JavaServer Pages: {"end"=>">"}
+invalid rule keys in grammar JavaServer Pages: {"end"=>">"}
+grammar Java: 'both' capture 1 => "keyword.other.import.java" ignored: 'from' and 'to' already given
+grammar Java: 'both' capture 1 => "keyword.other.import.java" ignored: 'from' and 'to' already given
+grammar Java: no 'begin' nor 'match': {"applyEndPatternLast"=>1, "patterns"=>[{"begin"=>"(?x:(?=\n                        (?:\n                            (?:private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final) # visibility/modifier\n                                |\n                            (?:def)\n                                |\n                            (?:void|boolean|byte|char|short|int|float|long|double)\n                                |\n                            (?:(?:[a-z]\\w*\\.)*[A-Z]+\\w*) # object type\n                        )\n                        \\s+\n                        (?!private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final|def|void|boolean|byte|char|short|int|float|long|double)\n                        [\\w\\d_<>\\[\\],\\?][\\w\\d_<>\\[\\],\\? \\t]*\n                        (?:=|$)\n                        \n\t\t\t\t\t))", "end"=>"(?=;)", "name"=>"meta.definition.variable.java", "patterns"=>[{"match"=>"\\s"}, {"captures"=>{"1"=>{"name"=>"constant.variable.java"}}, "match"=>"([A-Z_0-9]+)\\s+(?=\\=)"}, {"captures"=>{"1"=>{"name"=>"meta.definition.variable.name.java"}}, "match"=>"(\\w[^\\s,]*)\\s+(?=\\=)"}, {"begin"=>"=", "beginCaptures"=>{"0"=>{"name"=>"keyword.operator.assignment.java"}}, "end"=>"(?=;)", "patterns"=>[{"include"=>"#code"}]}, {"captures"=>{"1"=>{"name"=>"meta.definition.variable.name.java"}}, "match"=>"(\\w[^\\s=]*)(?=\\s*;)"}, {"include"=>"#code"}]}]}
+invalid rule keys in grammar Java: {"applyEndPatternLast"=>1}
+extra capture ignored in grammar Java Properties: {"name"=>"support.constant.java-properties", "patterns"=>[{"match"=>"\\\\([tnfr\"'\\\\ ]|u\\h{4})", "name"=>"constant.character.escape.java-properties"}]}
+snippet Continue Doc Block: illegal XML character "\u0003" replaced by 'ETX'
+grammar JavaScript: "injections" is not supported
+unknown key in grammar Regular Expressions (JavaScript): "hideFromUser"
+snippet Beamer Overlay Specification: no tab trigger nor key equivalent
+invalid capture in grammar LaTeX: {"patterns"=>[{"captures"=>{"1"=>{"name"=>"punctuation.definition.arguments.begin.latex"}, "2"=>{"name"=>"variable.parameter.latex"}, "3"=>{"name"=>"punctuation.definition.arguments.end.latex"}}, "match"=>"(\\[)([^\\[]*?)(\\])"}]}
+snippet Add Row: illegal XML character "\u0003" replaced by 'ETX'
+grammar LilyPond: no 'begin' nor 'match': {"name"=>"meta.element.key-signature.lilypond"}
+snippet     Category with protocol: no tab trigger nor key equivalent
+snippet     Class with all: no tab trigger nor key equivalent
+snippet     Class with category: no tab trigger nor key equivalent
+snippet     Class with metaclass: no tab trigger nor key equivalent
+snippet     Class with protocol: no tab trigger nor key equivalent
+snippet     Extended protocol: no tab trigger nor key equivalent
+snippet     Instance with all: no tab trigger nor key equivalent
+snippet     Instance with category: no tab trigger nor key equivalent
+snippet     Instance with protocol: no tab trigger nor key equivalent
+snippet     Prototype with all: no tab trigger nor key equivalent
+snippet     Prototype with category: no tab trigger nor key equivalent
+snippet     Prototype with parent: no tab trigger nor key equivalent
+snippet     Prototype with protocol: no tab trigger nor key equivalent
+snippet Continue Quotation: illegal XML character "\u0003" replaced by 'ETX'
+unknown key in grammar Email Address: "injectionSelector"
+invalid capture in grammar Makefile: {"patterns"=>[{"captures"=>{"1"=>{"name"=>"support.function.target.$1.makefile"}}, "match"=>"^\\s*(\\.(PHONY|SUFFIXES|DEFAULT|PRECIOUS|INTERMEDIATE|SECONDARY|SECONDEXPANSION|DELETE_ON_ERROR|IGNORE|LOW_RESOLUTION_TIME|SILENT|EXPORT_ALL_VARIABLES|NOTPARALLEL|ONESHELL|POSIX))\\s*$"}, {"begin"=>"(?=\\S)", "end"=>"(?=\\s|$)", "name"=>"entity.name.function.target.makefile", "patterns"=>[{"include"=>"#variables"}, {"match"=>"%", "name"=>"constant.other.placeholder.makefile"}]}]}
+no 'end' for rule with 'begin' in grammar Makefile
+invalid capture in grammar Makefile: {"patterns"=>[{"match"=>"\\\\\\n", "name"=>"constant.character.escape.continuation.makefile"}, {"include"=>"#variables"}, {"include"=>"source.shell"}]}
+invalid rule keys in grammar Makefile: {"while"=>"^\\t"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"(^|\\G)(>) ?"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"\\G(?!</\\2\\s*>)"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"(^|\\G)(?!\\s*$|#|[ ]{,3}([-*_][ ]{2,}){3,}[ \\t]*$\\n?|>|[ ]{0,3}[*+-]|[ ]{0,3}[0-9]+\\.)"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"\\G([ ]{4}|\\t|$)"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"\\G([ ]{4}|\\t|$)"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"(^|\\G)(?!\\s*$|#|[ ]{,3}([-*_][ ]{2,}){3,}[ \\t]*$\\n?|\\s*\\[.+?\\]:|>)"}
+no 'end' for rule with 'begin' in grammar Markdown
+invalid rule keys in grammar Markdown: {"while"=>"(^|\\G)([ ]{4}|\\t)"}
+invalid capture in grammar Markdown: {}
+grammar Octave: no such fragment: "#double_quote"
+invalid capture in grammar Mediawiki: {"patterns"=>[{"match"=>"=+$", "name"=>"invalid.illegal.extra-equals-sign.mediawiki"}, {"include"=>"#inline"}]}
+grammar Mediawiki: no such fragment: "#tag-stuff"
+snippet New List Item: illegal XML character "\u0003" replaced by 'ETX'
+snippet Insert Row: illegal XML character "\u0003" replaced by 'ETX'
+invalid rule keys in grammar MoinMoin: {"end"=>"\\n"}
+grammar Movable Type (MT only): no 'begin' nor 'match': {}
+grammar Movable Type (MT only): no such fragment: "#smarty"
+grammar 'OCaml': 'beginCaptures' understood as 'captures' in 'match' rule: {"beginCaptures"=>{"1"=>{"name"=>"support.other.module.ocaml"}, "2"=>{"name"=>"punctuation.separator.module-reference.ocaml"}}, "match"=>"\\b([A-Z][a-zA-Z0-9'_]*)(\\.)", "name"=>"meta.module-reference.ocaml"}
+grammar Perl HTML-Template: no 'begin' nor 'match': {}
+grammar HTML (Template Toolkit): no 'begin' nor 'match': {}
+snippet Continue Block Comment: illegal XML character "\u0003" replaced by 'ETX'
+grammar PHP: "injections" is not supported
+invalid rule keys in grammar PHP: {"injections"=>{"*"=>{"patterns"=>[{"include"=>"#interpolation"}]}}}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc class var.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc class.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc constant definition.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc function signature.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc function.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc header.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+unexpected keys in test/Packages.textmate/PHP/PHPDoc interface.tmSnippet: {"bundlePath"=>"/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle"}
+grammar PmWiki: no such fragment: "#embedded-code"
+extra capture ignored in grammar Property List (Old-Style): {"name"=>"constant.other.key.plist", "patterns"=>[{"include"=>"#string-contents"}]}
+extra capture ignored in grammar Property List (Old-Style): {"name"=>"constant.other.key.plist", "patterns"=>[{"include"=>"#string-contents"}]}
+grammar Python: no 'begin' nor 'match': {"disabled"=>0, "patterns"=>[{"include"=>"source.regexp.python"}]}
+grammar HTML (Ruby - ERB): "injections" is not supported
+unexpected keys in test/Packages.textmate/Ruby/RDoc documentation block.tmSnippet: {"disableAutoIndent"=>true}
+snippet Continue Line Comment: illegal XML character "\u0003" replaced by 'ETX'
+unexpected keys in test/Packages.textmate/Source/Return Inside Empty Item.tmSnippet: {"hideFromUser"=>true}
+scope missing for snippet 'Double Quotes — \"…\"', set to 'comment.line'
+scope missing for snippet 'Insert Comment Banner', set to 'comment.line'
+scope missing for snippet "Single Quotes — \\'…\\'", set to 'comment.line'
+snippet Continue Bullet: illegal XML character "\u0003" replaced by 'ETX'
+snippet Continue Light Bullet: illegal XML character "\u0003" replaced by 'ETX'
+snippet Continue Star Bullet: illegal XML character "\u0003" replaced by 'ETX'
+scope missing for snippet 'Copyright Notice', set to 'meta.bullet-point'
+scope missing for snippet 'Current Date — YYYY-MM-DD', set to 'meta.bullet-point'
+scope missing for snippet 'Lorem ipsum', set to 'meta.bullet-point'
+snippet Convert Tabs To Table: no tab trigger nor key equivalent
+grammar Properties: 'both' capture 1 => "punctuation.definition.comment.tm-properties" moved to 'to' ('from' has 1 => "punctuation.whitespace.comment.leading.tm-properties")
+unknown key in grammar TODO: "injectionSelector"
+invalid capture in grammar TOML: {"patterns"=>[{"match"=>"[^\\s.]+", "name"=>"entity.name.section.toml"}]}
+snippet Protected (Raw): no tab trigger nor key equivalent
+snippet Protected Block (Raw): no tab trigger nor key equivalent
+snippet Tagged Block: no tab trigger nor key equivalent
+snippet Tagged: no tab trigger nor key equivalent
+snippet Insert Loop to Handle Multiple Arguments: no tab trigger nor key equivalent
+snippet Ordered List Item: illegal XML character "\u0003" replaced by 'ETX'
+snippet Unordered Item: illegal XML character "\u0003" replaced by 'ETX'
+scope missing for snippet 'wikipedia', set to 'text.html.wikidot'

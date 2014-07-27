@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jal		${1:target}				# jump to $1 and save position to \$ra
+</string>
+	<key>name</key>
+	<string>jump and link</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>tabTrigger</key>
+	<string>jal</string>
+	<key>uuid</key>
+	<string>25AAEEEE-4E28-4601-9C3A-863F05806E38</string>
+</dict>
+</plist>

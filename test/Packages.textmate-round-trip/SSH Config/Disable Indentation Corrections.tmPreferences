@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Disable Indentation Corrections</string>
+	<key>scope</key>
+	<string>source.ssh-config</string>
+	<key>settings</key>
+	<dict>
+		<key>disableIndentCorrections</key>
+		<integer>1</integer>
+		<key>indentOnPaste</key>
+		<string>simple</string>
+	</dict>
+	<key>uuid</key>
+	<string>1123E46F-8E8C-4208-ABBC-A8B83DF5835D</string>
+</dict>
+</plist>

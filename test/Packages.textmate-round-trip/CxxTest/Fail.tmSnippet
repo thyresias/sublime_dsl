@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_FAIL(${2:"${1:Test not implemented}"});</string>
+	<key>name</key>
+	<string>Fail</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>fail</string>
+	<key>uuid</key>
+	<string>E66F1C9C-EF5C-4D8E-99AC-90FA906F877E</string>
+</dict>
+</plist>

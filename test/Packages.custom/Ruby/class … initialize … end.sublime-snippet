@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}${2: < $3}
+
+	def initialize${4/(^.*?\S.*)|.*/(?1:\()/}${4:args}${4/(^.*?\S.*)|.*/(?1:\))/}
+		$0
+	end
+
+end]]></content>
+	<tabTrigger>cla</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>class … initialize … end</description>
+</snippet>

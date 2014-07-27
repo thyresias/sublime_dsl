@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>tell ${1:application "${2:Finder}"}
+	${0:-- statements}
+end tell</string>
+	<key>name</key>
+	<string>tell [app] … end</string>
+	<key>scope</key>
+	<string>source.applescript</string>
+	<key>tabTrigger</key>
+	<string>tell</string>
+	<key>uuid</key>
+	<string>3E62DF03-32E3-40B6-978F-CD3DD86F8494</string>
+</dict>
+</plist>

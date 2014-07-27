@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>jr		${1:\$ra}					# jump to $1
+</string>
+	<key>name</key>
+	<string>jump register</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>tabTrigger</key>
+	<string>jr</string>
+	<key>uuid</key>
+	<string>2D313705-F80D-45DD-9F99-AEB71BCDD6F6</string>
+</dict>
+</plist>

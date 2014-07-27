@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>bne		${1:\$t0}, ${2:\$t1}, ${3:target}	# if $1 != $2 then $3
+</string>
+	<key>name</key>
+	<string>branch if not equal</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>tabTrigger</key>
+	<string>bne</string>
+	<key>uuid</key>
+	<string>6D9FFD17-43A2-4502-B759-8AA86EEF7C94</string>
+</dict>
+</plist>

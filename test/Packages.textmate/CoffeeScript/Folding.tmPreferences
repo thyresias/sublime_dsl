@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Folding</string>
+	<key>scope</key>
+	<string>source.coffee -(source.coffee string)</string>
+	<key>settings</key>
+	<dict>
+		<key>foldingIndentedBlockStart</key>
+		<string>(?x)
+	\b class \b |           # class definition
+	[=-]&gt; \s* (\#.*)? $     # line-ending function arrow
+  </string>
+	</dict>
+	<key>uuid</key>
+	<string>A6FC6CDA-1572-4D42-A8F0-D96048D49873</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[proc sql noprint;
+  %let ${1:dslist} = ;
+  select memname into :$1 separated by " "
+  from dictionary.tables
+  where libname = "$0";
+quit;]]></content>
+	<tabTrigger>psqt</tabTrigger>
+	<scope>source.sas</scope>
+	<description>proc sql; select … from dict.tables; quit;</description>
+</snippet>

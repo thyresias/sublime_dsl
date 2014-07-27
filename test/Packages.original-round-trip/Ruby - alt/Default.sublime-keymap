@@ -1,0 +1,5 @@
+[
+  {"keys":["#"],"command":"insert_snippet","args":{"contents":"#{${1:$SELECTION}}$0"}, "context": [
+    {"key":"selector","operator":"equal","operand":"(string.quoted.double.ruby | string.interpolated.ruby) - string source","match_all":true}
+  ]}
+]

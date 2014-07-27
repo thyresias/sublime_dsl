@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${TM_DISPLAYNAME/(?:t_)?(.*?)(\.(.+)|$)/${1/([^_]*)_?/\u$1/g}/}Tests : public CxxTest::TestSuite
+{
+public:
+	void test_${1:${TM_DISPLAYNAME/(?:t_)?(.*?)(\.(.+)|$)/$1/}} ()
+	{$0
+	}
+};
+</string>
+	<key>name</key>
+	<string>New Unit Test</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest &amp; source.c++, attr.test.cxxtest &amp; source.objc++</string>
+	<key>tabTrigger</key>
+	<string>test</string>
+	<key>uuid</key>
+	<string>AB0B0546-2007-4E5E-AE48-E3136821C560</string>
+</dict>
+</plist>

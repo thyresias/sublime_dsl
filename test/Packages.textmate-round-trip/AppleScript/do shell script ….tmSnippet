@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1/.+/set /}${1:shell_output}${1/.+/ to /}do shell script${2/.+/ ¬
+	/}${2:"${3:script}"}${4/.+/ ¬
+	/}${4:without altering line endings}
+</string>
+	<key>name</key>
+	<string>do shell script …</string>
+	<key>scope</key>
+	<string>source.applescript</string>
+	<key>tabTrigger</key>
+	<string>shell</string>
+	<key>uuid</key>
+	<string>A26CF48B-F79C-4AEC-B2DC-9063DA264DDB</string>
+</dict>
+</plist>

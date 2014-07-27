@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'sublime_dsl'
+SublimeDSL::CLI.new(File.basename(__FILE__)).run

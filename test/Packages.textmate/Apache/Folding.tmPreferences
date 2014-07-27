@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Folding</string>
+	<key>scope</key>
+	<string>source.apache-config</string>
+	<key>settings</key>
+	<dict>
+		<key>foldingStartMarker</key>
+		<string>^[ ]*(?x)
+		(&lt;(?i:FilesMatch|Files|DirectoryMatch|Directory|LocationMatch|Location|VirtualHost|IfModule|IfDefine|Perl)\b.*?&gt;
+		)</string>
+		<key>foldingStopMarker</key>
+		<string>^[ ]*(?x)
+		(&lt;/(?i:FilesMatch|Files|DirectoryMatch|Directory|LocationMatch|Location|VirtualHost|IfModule|IfDefine|Perl)&gt;
+		)</string>
+	</dict>
+	<key>uuid</key>
+	<string>594576A7-E8BD-4D9C-8BBF-4A34ED74F83F</string>
+</dict>
+</plist>

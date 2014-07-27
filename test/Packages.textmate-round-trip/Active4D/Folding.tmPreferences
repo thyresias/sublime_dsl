@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Folding</string>
+	<key>scope</key>
+	<string>source.active4d</string>
+	<key>settings</key>
+	<dict>
+		<key>foldingStartMarker</key>
+		<string>(?x)
+    (^\s*(?i:if|while|for\ each|for|case\ of|repeat|method|save output)\b
+    )</string>
+		<key>foldingStopMarker</key>
+		<string>(?x)
+    (^\s*(?i:end\ (if|while|for\ each|for|case|method|save output)|until)\b
+    )</string>
+	</dict>
+	<key>uuid</key>
+	<string>E0741CCC-A500-4441-AA3F-366884F61B51</string>
+</dict>
+</plist>

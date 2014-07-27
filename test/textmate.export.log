@@ -1,0 +1,203 @@
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:80: warning: character class has duplicated range: /(\$)[\w_]+/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:85: warning: character class has duplicated range: /(\<\>)[\w_]+/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:90: warning: character class has duplicated range: /(\[)[^\[].*?(\])([\w_ ]+)?/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:141: warning: character class has duplicated range: /(&)?(\$)[\w_]+(;)?/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:228: warning: character class has duplicated range
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:235: warning: character class has duplicated range: /\\\[\w[\w_ ]*\][\w_]+(\[\[\d+\]\])*/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:242: warning: character class has duplicated range: /\\\$[\w_]+({(".+?"|\d+|\$[\w_]+)})*(\[\[\d+\]\])*/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:268: warning: character class has duplicated range
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:286: warning: character class has duplicated range: /\[\w[\w_ ]*\][\w_]+(\[\[\d+\]\])*/
+test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:293: warning: character class has duplicated range: /(\$)[\w_]+({(".+?"|\d+|\$[\w_]+)})*(\[\[\d+\]\])*/
+test/DSL.textmate/Active4D/HTML (Active4D).tmLanguage.rb:51: warning: regular expression has ']' without escape: /]](?=>)/
+test/DSL.textmate/Active4D/HTML (Active4D).tmLanguage.rb:204: warning: character class has '-' without escape: /\b([a-zA-Z-:]+)/
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*'
+snippet Check that UI Scripting is Enabled: no tab trigger nor key equivalent
+snippet Select Menu Item with UI Scripting: no tab trigger nor key equivalent
+snippet Split/Join Helper Functions: no tab trigger nor key equivalent
+test/DSL.textmate/ASP/ASP.tmLanguage.rb:63: warning: character class has duplicated range: /(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b/
+test/DSL.textmate/ASP vb.NET/ASP VB.net.tmLanguage.rb:57: warning: character class has duplicated range
+test/DSL.textmate/ASP vb.NET/ASP VB.net.tmLanguage.rb:82: warning: character class has duplicated range: /(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b\s*/
+test/DSL.textmate/ASP vb.NET/ASP VB.net.tmLanguage.rb:102: warning: character class has duplicated range
+test/DSL.textmate/ASP vb.NET/ASP VB.net.tmLanguage.rb:115: warning: character class has duplicated range
+test/DSL.textmate/ASP vb.NET/ASP VB.net.tmLanguage.rb:120: warning: character class has duplicated range
+test/DSL.textmate/ASP vb.NET/HTML for ASP.net.tmLanguage.rb:53: warning: regular expression has ']' without escape: /]](?=>)/
+test/DSL.textmate/ASP vb.NET/HTML for ASP.net.tmLanguage.rb:311: warning: character class has '-' without escape: /\b([a-zA-Z-:]+)/
+grammar 'HTML (ASP.net)': fragment 'ruby' never used, not output
+grammar 'HTML (ASP.net)': fragment 'source-asp-single-line' never used, not output
+test/DSL.textmate/Bulletin Board/Bulletin Board.tmLanguage.rb:155: warning: regular expression has ']' without escape: /[\[]]+/
+test/DSL.textmate/Bulletin Board/Bulletin Board.tmLanguage.rb:167: warning: regular expression has ']' without escape: /[\[]]+/
+test/DSL.textmate/Bulletin Board/Bulletin Board.tmLanguage.rb:184: warning: regular expression has ']' without escape: /[\[]]+?/
+test/DSL.textmate/C/C++.tmLanguage.rb:23: warning: regular expression has ']' without escape: /\bdelete\b(\s*\[\])?|\bnew\b(?!])/
+grammar 'C++': fragment 'block' never used, not output
+test/DSL.textmate/C++ Qt/qmake Project.tmLanguage.rb:40: warning: character class has duplicated range: /(\b([\w\d_]+\.[\w\d_]+|[A-Z_]+))?\s*(\+|\-)?(=)/
+test/DSL.textmate/C++ Qt/qmake Project.tmLanguage.rb:46: warning: character class has duplicated range: /(\$\$)([A-Z_]+|[\w\d_]+\.[\w\d_]+)|\$\([\w\d_]+\)/
+test/DSL.textmate/C++ Qt/qmake Project.tmLanguage.rb:51: warning: character class has duplicated range: /[\w\d\/_\-\.\:]+/
+test/DSL.textmate/CMake/CMake Cache.tmLanguage.rb:14: warning: character class has duplicated range
+grammar 'CoffeeScript (Literate)': fragment 'embedded_comment' never used, not output
+grammar 'CoffeeScript': fragment 'embedded_comment' never used, not output
+test/DSL.textmate/ColdFusion/ColdFusion.tmLanguage.rb:33: warning: regular expression has ']' without escape: /]](?=>)/
+grammar ColdFusion: no such fragment: "#javascript"
+test/DSL.textmate/D/D.tmLanguage.rb:104: warning: character class has duplicated range
+grammar 'D': fragment 'constant_placeholder' never used, not output
+grammar 'D': fragment 'statement-remainder' never used, not output
+test/DSL.textmate/DokuWiki/DokuWiki.tmLanguage.rb:146: warning: character class has duplicated range: /(<)([\w0-9\-_.]+?@[\w\-]+\.[\w\-\.]+\.*[\w]+)(\>)/
+test/DSL.textmate/Dylan/preferences.rb:39: warning: character class has duplicated range
+test/DSL.textmate/Dylan/preferences.rb:45: warning: character class has duplicated range
+grammar Eiffel: no such fragment: "#all-types"
+grammar Eiffel: no such fragment: "#all-types"
+grammar 'Eiffel': fragment 'number' never used, not output
+grammar 'Eiffel': fragment 'variable' never used, not output
+test/DSL.textmate/Erlang/Erlang.tmLanguage.rb:442: warning: character class has duplicated range
+test/DSL.textmate/Erlang/Erlang.tmLanguage.rb:452: warning: character class has duplicated range
+test/DSL.textmate/Erlang/Erlang.tmLanguage.rb:462: warning: character class has duplicated range
+snippet (Case/Receive/Try Clause): no tab trigger nor key equivalent
+snippet (Fun Clause): no tab trigger nor key equivalent
+snippet (Function Clause): no tab trigger nor key equivalent
+snippet (If Clause): no tab trigger nor key equivalent
+test/DSL.textmate/Git/Git Config.tmLanguage.rb:29: warning: character class has duplicated range
+test/DSL.textmate/Groovy/Groovy.tmLanguage.rb:352: warning: regular expression has ']' without escape: /(?=$|\)|}|])/
+test/DSL.textmate/Groovy/Groovy.tmLanguage.rb:760: warning: character class has duplicated range
+grammar 'Groovy': fragment 'keyword' never used, not output
+test/DSL.textmate/HTML/HTML.tmLanguage.rb:53: warning: regular expression has ']' without escape: /]](?=>)/
+snippet Wrap in <?= … ?>: no tab trigger nor key equivalent
+test/DSL.textmate/Io/Io.tmLanguage.rb:55: warning: character class has duplicated range: /\bGL[\w_]+\b/
+test/DSL.textmate/Java/Java.tmLanguage.rb:499: warning: character class has duplicated range
+test/DSL.textmate-fixes/Java/JavaProperties.tmLanguage.rb:6: warning: character class has duplicated range: /^[a-zA-Z0-9.-_]+=.*/
+grammar 'JavaServer Pages': fragment 'comment' never used, not output
+grammar 'JavaServer Pages': fragment 'declaration' never used, not output
+grammar 'JavaServer Pages': fragment 'el_expression' never used, not output
+grammar 'JavaServer Pages': fragment 'expression' never used, not output
+grammar 'JavaServer Pages': fragment 'scriptlet' never used, not output
+grammar 'JavaServer Pages': fragment 'tags' never used, not output
+grammar 'Java': fragment 'values' never used, not output
+test/DSL.textmate/JavaScript MooTools/MooTools.tmLanguage.rb:476: warning: character class has duplicated range: /(?=[^\t\s])/
+test/DSL.textmate/JavaScript Prototype & Script.aculo.us/JavaScript + Prototype.tmLanguage.rb:25: warning: character class has duplicated range: /(?=[^\t\s])/
+snippet Beamer Overlay Specification: no tab trigger nor key equivalent
+grammar 'Lex/Flex': fragment 'rec_csource' never used, not output
+test/DSL.textmate/Lisp/Lisp.tmLanguage.rb:25: warning: character class has duplicated range: /(#)(\w|[\\+-=<>'"&#])+/
+snippet     Category with protocol: no tab trigger nor key equivalent
+snippet     Class with all: no tab trigger nor key equivalent
+snippet     Class with category: no tab trigger nor key equivalent
+snippet     Class with metaclass: no tab trigger nor key equivalent
+snippet     Class with protocol: no tab trigger nor key equivalent
+snippet     Extended protocol: no tab trigger nor key equivalent
+snippet     Instance with all: no tab trigger nor key equivalent
+snippet     Instance with category: no tab trigger nor key equivalent
+snippet     Instance with protocol: no tab trigger nor key equivalent
+snippet     Prototype with all: no tab trigger nor key equivalent
+snippet     Prototype with category: no tab trigger nor key equivalent
+snippet     Prototype with parent: no tab trigger nor key equivalent
+snippet     Prototype with protocol: no tab trigger nor key equivalent
+grammar 'Mail': fragment 'any' never used, not output
+test/DSL.textmate/Matlab/M.tmLanguage.rb:67: warning: character class has duplicated range: /\G\s*(?![\n\s])/
+grammar Octave: no such fragment: "#double_quote"
+grammar Mediawiki: no such fragment: "#tag-stuff"
+grammar 'Mediawiki': fragment 'entities' never used, not output
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*': /(<\/?)([mM][tT]:?(?:\w+)?:?\w+)/
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*': /(<)(\$[mM][tT]:?(?:\w+)?:?\w+)/
+test/DSL.textmate/Movable Type/Movable Type (MT only).tmLanguage.rb:119: warning: character class has '-' without escape: /\b([a-zA-Z-_:]+)/
+grammar Movable Type (MT only): no such fragment: "#smarty"
+test/DSL.textmate/Movable Type/Movable Type.tmLanguage.rb:143: warning: character class has '-' without escape: /\b([a-zA-Z-_:]+)/
+grammar 'Movable Type (MT only)': fragment 'string-double-quoted' never used, not output
+grammar 'Movable Type (MT only)': fragment 'string-single-quoted' never used, not output
+grammar 'Movable Type (MT only)': fragment 'tag-generic-attribute' never used, not output
+grammar 'Movable Type (MT only)': fragment 'tag-id-attribute' never used, not output
+test/DSL.textmate/Nemerle/Nemerle.tmLanguage.rb:63: warning: character class has duplicated range: /\$[a-z,A-Z]+[a-z,A-Z,0-9]*( |\+|\-|\*|\/|\%)/
+test/DSL.textmate-fixes/Nemerle/preferences.rb:7: warning: regular expression has ']' without escape: /(\}|\)|]>)/
+test/DSL.textmate/OCaml/camlp4.tmLanguage.rb:11: warning: regular expression has ']' without escape: /(\[<)(?=.*?>])/
+test/DSL.textmate/OCaml/camlp4.tmLanguage.rb:13: warning: regular expression has ']' without escape: /(?=>])/
+test/DSL.textmate/OCaml/camlp4.tmLanguage.rb:19: warning: regular expression has ']' without escape: /\[<|>]/
+test/DSL.textmate/OCaml/camlp4.tmLanguage.rb:30: warning: regular expression has ']' without escape: /(;)(?=\s*')|(?=\s*>])/
+test/DSL.textmate/OCaml/OCaml.tmLanguage.rb:194: warning: regular expression has ']' without escape: /(?=(\[<)(?![^\[]+?[^>]]))/
+test/DSL.textmate/OCaml/OCaml.tmLanguage.rb:196: warning: regular expression has ']' without escape: /(>])/
+test/DSL.textmate/OCaml/OCaml.tmLanguage.rb:309: warning: regular expression has ']' without escape: /(\|])/
+test/DSL.textmate/OCaml/OCaml.tmLanguage.rb:375: warning: regular expression has ']' without escape: /(?<!\||>)(])/
+test/DSL.textmate/OCaml/OCamllex.tmLanguage.rb:110: warning: regular expression has ']' without escape: /(])(?!\')/
+test/DSL.textmate/Perl/Perl.tmLanguage.rb:274: warning: character class has duplicated range: /(?=[^\t\s])/
+test/DSL.textmate/Perl/Perl.tmLanguage.rb:867: warning: character class has duplicated range
+test/DSL.textmate/Perl/Perl.tmLanguage.rb:872: warning: character class has duplicated range
+test/DSL.textmate/Perl Template Toolkit/HTML (Template Toolkit).tmLanguage.rb:85: warning: character class has '-' without escape: /\b([a-zA-Z-_:]+)\s*(=)/
+grammar 'HTML (Template Toolkit)': fragment 'tag-stuff' never used, not output
+grammar PmWiki: no such fragment: "#embedded-code"
+grammar 'Processing': fragment 'values' never used, not output
+test/DSL.textmate/Property List/Property List (XML).tmLanguage.rb:150: warning: regular expression has ']' without escape: /]]>/
+test/DSL.textmate/Property List/Property List (XML).tmLanguage.rb:226: warning: regular expression has ']' without escape: /]]>/
+test/DSL.textmate/Property List/Property List (XML).tmLanguage.rb:243: warning: regular expression has ']' without escape: /(]]>)/
+test/DSL.textmate/Property List/Property List (XML).tmLanguage.rb:243: warning: regular expression has ']' without escape: /(]]>)/
+test/DSL.textmate-fixes/Python/Regular Expressions (Python).tmLanguage.rb:29: warning: character class has duplicated range: /(?<=^|\s)#\s[[a-zA-Z0-9,. \t?!-:][^\x00-\x7F]]*$/
+grammar 'Python': fragment 'docstrings' never used, not output
+grammar 'Python': fragment 'function_name' never used, not output
+grammar 'Python': fragment 'strings' never used, not output
+test/DSL.textmate/Ragel/Ragel.tmLanguage.rb:31: warning: character class has duplicated range: /([@$>%])\s*([\w\d]+)/
+test/DSL.textmate/Ragel/Ragel.tmLanguage.rb:88: warning: character class has duplicated range: /(action)\s+([\w\d]+)\s+({)/
+test/DSL.textmate/Ragel/Ragel.tmLanguage.rb:98: warning: character class has duplicated range: /([\w\d]+)\s*(=)/
+test/DSL.textmate/Ragel/Ragel.tmLanguage.rb:112: warning: character class has duplicated range: /([\w\d]+)\s*(:=)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:30: warning: character class has duplicated range: /``((?=[^`\w\d])|$)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:50: warning: character class has duplicated range: /(:)([-A-z0-9_.]*)(:)(`)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:90: warning: character class has duplicated range: /((\[)[A-z][A-z0-9_-]*(\]))(_)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:119: warning: character class has duplicated range: /(\.\.)\s([A-z][-A-z0-9_]+)(::)\s*$/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:127: warning: character class has duplicated range: /(\.\.)\s([A-z][-A-z0-9_]+)(::)\s+(.+?)\s*$/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:152: warning: character class has ']' without escape: /^(\.\.)\s+((\[)(((#?)[^]]*?)|\*)(\]))\s+(.*)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:171: warning: character class has duplicated range: /((\[#)[A-z0-9_]*(\]))(_)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:198: warning: character class has duplicated range: /(\.\.)\s+(_)([-.\d\w\s()]+)(:)\s+(.*)/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:219: warning: character class has duplicated range: /\b([-.:+_\d\w]+)(_)\b/
+test/DSL.textmate/reStructuredText/reStructuredText.tmLanguage.rb:265: warning: character class has duplicated range: /(:)[A-z][A-z0-9  =\s\t_]*(:)/
+test/DSL.textmate/Ruby/preferences.rb:81: warning: character class has duplicated range
+test/DSL.textmate/Ruby/preferences.rb:121: warning: character class has duplicated range
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:574: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)HTML)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:579: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)HTML)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:593: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)SQL)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:598: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)SQL)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:612: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)CSS)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:617: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)CSS)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:631: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)CPP)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:636: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)CPP)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:650: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)C)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:655: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)C)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:669: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)(?:JS|JAVASCRIPT))\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:674: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)(?:JS|JAVASCRIPT))\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:688: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)JQUERY)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:693: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)JQUERY)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:707: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)(?:SH|SHELL))\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:712: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)(?:SH|SHELL))\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:726: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)LUA)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:731: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)LUA)\b\1)/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:745: warning: character class has duplicated range: /(?=(?><<-("?)((?:[_\w]+_|)RUBY)\b\1))/
+test/DSL.textmate-fixes/Ruby/Ruby.tmLanguage.rb:750: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)RUBY)\b\1)/
+grammar 'HTML (Ruby - ERB)': fragment 'comment' never used, not output
+grammar 'HTML (Ruby - ERB)': fragment 'tags' never used, not output
+test/DSL.textmate-fixes/Slate/preferences.rb:5: warning: character class has duplicated range: /^\s*[_A-z0-9]+@.+$/
+test/DSL.textmate-fixes/Slate/preferences.rb:14: warning: regular expression has ']' without escape: /^.*\(|\[|\{].*[^\)]}"]$/
+test/DSL.textmate-fixes/Slate/preferences.rb:14: warning: regular expression has ']' without escape: /^.*\(|\[|\{].*[^\)]}"]$/
+test/DSL.textmate/Slate/Slate.tmLanguage.rb:119: warning: character class has duplicated range
+grammar 'Slate': fragment 'binary-selector' never used, not output
+grammar 'Slate': fragment 'escaped-char' never used, not output
+grammar 'Slate': fragment 'unary-selector' never used, not output
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator ? and * was replaced with '*': /^<<(.?*)>>=|\\begin\{.*\}/
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator ? and * was replaced with '*': /^@(.?*)$|\\end\{.*\}/
+snippet Convert Tabs To Table: no tab trigger nor key equivalent
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:94: warning: character class has duplicated range
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:159: warning: character class has ']' without escape
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:164: warning: character class has ']' without escape
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:169: warning: character class has ']' without escape
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:174: warning: character class has ']' without escape
+test/DSL.textmate/Textile/Textile.tmLanguage.rb:179: warning: character class has ']' without escape
+test/DSL.textmate-fixes/TextMate/Regular Expressions (Oniguruma).tmLanguage.rb:39: warning: character class has duplicated range: /(?<=^|\s)#\s[[a-zA-Z0-9,. \t?!-:][^\x00-\x7F]]*$/
+test/DSL.textmate/Thrift/Thrift.tmLanguage.rb:152: warning: character class has duplicated range
+test/DSL.textmate/TOML/TOML.tmLanguage.rb:80: warning: regular expression has ']' without escape: /,|(?=])/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:125: warning: character class has duplicated range: /([\*])[\s\w :.\?']*([\*])/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:131: warning: character class has duplicated range: /((((__))[\s\w :.\?']*((__))))/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:141: warning: character class has duplicated range: /\b(_)[\s\w :.\?']*(_)\b/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:147: warning: character class has duplicated range: /((((\=\=))[\s\w :.\?']*((\=\=))))/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:157: warning: character class has duplicated range: /(\=)[\s\w :.\?']*(\=)/
+test/DSL.textmate/Twiki/Twiki.tmLanguage.rb:173: warning: character class has ']' without escape: /(\[)([^]]*)(\]) *(\[)(.*?)(\])/
+snippet Protected (Raw): no tab trigger nor key equivalent
+snippet Protected Block (Raw): no tab trigger nor key equivalent
+snippet Tagged: no tab trigger nor key equivalent
+snippet Tagged Block: no tab trigger nor key equivalent
+test/DSL.textmate-fixes/Txt2tags/Txt2tags.tmLanguage.rb:111: warning: character class has duplicated range: /\[[\w_,.+%$\#@!?+~\/-]+\.(png|jpe?g|gif|eps|bmp)\]/
+test/DSL.textmate-fixes/Txt2tags/Txt2tags.tmLanguage.rb:123: warning: character class has duplicated range
+test/DSL.textmate-fixes/Txt2tags/Txt2tags.tmLanguage.rb:123: warning: character class has ']' without escape
+snippet Insert Loop to Handle Multiple Arguments: no tab trigger nor key equivalent
+test/DSL.textmate/Wikidot/Wikidot.tmLanguage.rb:215: warning: character class has duplicated range: /(<)([\w0-9\-_.]+?@[\w\-]+\.[\w\-\.]+\.*[\w]+)(\>)/
+test/DSL.textmate/XML/XML.tmLanguage.rb:81: warning: regular expression has ']' without escape: /]]>/

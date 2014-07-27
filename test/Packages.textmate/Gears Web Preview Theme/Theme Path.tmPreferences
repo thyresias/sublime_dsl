@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Theme Path</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_THEME_PATH</string>
+				<key>value</key>
+				<string>${TM_THEME_PATH:+$TM_THEME_PATH:}$TM_BUNDLE_SUPPORT</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>3206257D-4417-49B6-B5C1-DA65D5313DD5</string>
+</dict>
+</plist>

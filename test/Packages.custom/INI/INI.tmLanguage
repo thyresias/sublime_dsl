@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ini</string>
+		<string>INI</string>
+		<string>inf</string>
+		<string>INF</string>
+		<string>reg</string>
+		<string>REG</string>
+		<string>gitconfig</string>
+		<string>config</string>
+	</array>
+	<key>name</key>
+	<string>INI</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^(#|;).*$</string>
+			<key>name</key>
+			<string>comment.line.ini</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.section.ini</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*\[(.*?)\]</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.ini</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(.+?)=.*?$</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ini</string>
+	<key>uuid</key>
+	<string>957acd74-6d7c-4732-a25b-5f66a1e637cd</string>
+</dict>
+</plist>

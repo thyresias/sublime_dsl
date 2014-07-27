@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Folding</string>
+	<key>scope</key>
+	<string>source.scilab</string>
+	<key>settings</key>
+	<dict>
+		<key>foldingStartMarker</key>
+		<string>^(?!.*//.*).*\b(if|while|for|function|select)\b</string>
+		<key>foldingStopMarker</key>
+		<string>\b(endfunction|end)\b</string>
+	</dict>
+	<key>uuid</key>
+	<string>5EEBDA68-3032-4935-8880-BB22A9E07240</string>
+</dict>
+</plist>

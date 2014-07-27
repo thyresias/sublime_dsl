@@ -1,0 +1,4 @@
+[
+  {"caption":"Indentation: Reduce by Half","command":"reduce_indent"},
+  {"caption":"Display: Selection Scopes","command":"display_scopes"}
+]

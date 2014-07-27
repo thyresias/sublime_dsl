@@ -1,0 +1,9 @@
+[
+  { "caption": "Indentation: Reduce by Half", "command": "reduce_indent" },
+  { "caption": "Display: Selection Scopes",
+    "command": "display_scopes" //, "args": {
+      //"show_panel": true, "clipboard": true, "points": false,
+      //"rowcol": false, "multiselect": true, "console_log": true, "show_statusbar": true
+    // }
+  }
+]

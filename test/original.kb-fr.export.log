@@ -1,0 +1,15 @@
+test/DSL.original.kb-fr/Default/Default (Linux).keymap.rb:190: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (Linux).keymap.rb:209: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (Linux).keymap.rb:228: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (Linux).keymap.rb:245: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (Linux).keymap.rb:262: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/
+test/DSL.original.kb-fr/Default/Default (OSX).keymap.rb:155: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (OSX).keymap.rb:174: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (OSX).keymap.rb:193: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (OSX).keymap.rb:210: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (OSX).keymap.rb:227: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/
+test/DSL.original.kb-fr/Default/Default (Windows).keymap.rb:194: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (Windows).keymap.rb:213: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original.kb-fr/Default/Default (Windows).keymap.rb:232: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (Windows).keymap.rb:249: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original.kb-fr/Default/Default (Windows).keymap.rb:266: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/

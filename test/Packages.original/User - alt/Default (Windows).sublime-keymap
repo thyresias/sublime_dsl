@@ -1,0 +1,154 @@
+[
+
+  // shift-ctrl S  =>  save all (was 'save as')
+  { "keys": ["shift+ctrl+s"], "command": "save_all" },
+
+  // ctrl R  =>  Run (= Build, was Goto Symbol)
+  { "keys": ["ctrl+r"], "command": "build" },
+
+  // ctrl B  =>  Goto Symbol (was Build)
+  { "keys": ["ctrl+b"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+
+  // shift-ctrl {  =>  insert a ruby block
+  { "keys": ["shift+ctrl+]"], "command": "insert_snippet", "args": {"contents": "{ |$0|  }"} },
+
+  // re-assignment of disabled key bindings
+  { "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
+  // { "keys": ["ctrl+]"], "command": "indent" },
+  // { "keys": ["ctrl+["], "command": "unindent" },
+  // { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+  { "keys": ["ctrl+keypad_multiply"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+  { "keys": ["ctrl+keypad_minus"], "command": "fold" },   // was increase_font_size
+  { "keys": ["ctrl+keypad_plus"], "command": "unfold" },  // was decrease_font_size
+
+  // easier keys
+  { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+  // clipboard management
+  { "keys": ["ctrl+c"], "command": "clipboard_manager_copy"},
+  { "keys": ["ctrl+x"], "command": "clipboard_manager_cut"},
+  { "keys": ["ctrl+v"], "command": "paste_and_indent"},   // paste remains on shift+insert
+
+  { "keys": ["shift+ctrl+c"], "command": "copy_append"},
+  { "keys": ["shift+ctrl+x"], "command": "cut_append"},
+  { "keys": ["shift+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
+
+  // case conversion
+  { "keys": ["ctrl+k", "ctrl+s"], "command": "snake_case"},
+  { "keys": ["ctrl+k", "ctrl+p"], "command": "pascal_case"},
+  { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case"}, // was fold_tag_attributes
+
+  // scopes
+  { "keys": ["ctrl+alt+shift+p"], "command": "display_scopes" },
+
+  // development
+  { "keys": ["ctrl+k", "ctrl+i"], "command": "in_dev"}
+
+
+  /*
+
+    to display what ST sees, in the console:
+    sublime.log_input(True)
+
+    ST named keys
+    =============
+
+    browser_back browser_forward browser_home
+    browser_favorites browser_refresh browser_search browser_stop
+
+    escape  f1-f15
+                   backspace
+    tab
+    capslock   enter
+
+    printscreen scrolllock pause
+
+    insert home pageup
+    delete end  pagedown
+         up
+    left down right
+
+    numlock
+    keypad_divide keypad_multiply keypad_minus keypad_plus keypad_period
+    keypad0-keypad9
+
+    backquote backslash comma equals leftbracket rightbracket minus period quote semicolon slash
+
+    control super alt space ctrl+alt super contextmenu control
+    (AltGr seen as ctrl+alt)
+
+    leftsuper rightsuper  leftalt rightalt  leftcontrol  leftshift
+    leftmeta clear
+
+    FR <--> ST
+    ==========
+
+    actual / seen by ST / custom char
+    ctrl+²   ctrl+'
+    ctrl+&   ctrl+1
+    ctrl+é   ctrl+2
+    ctrl+"   ctrl+3
+    ctrl+'   ctrl+4
+    ctrl+(   ctrl+5
+    ctrl+-   ctrl+6
+    ctrl+è   ctrl+7
+    ctrl+_   ctrl+8
+    ctrl+ç   ctrl+9
+    ctrl+à   ctrl+0
+    ctrl+)   ctrl+[  => @
+    ctrl+=   ctrl+=  => #  (match!)
+
+    ctrl+^   ctrl+]  => {
+    ctrl+$   ctrl+;  => }
+
+    ctrl+ù   ctrl+`  => [
+    ctrl+*   ctrl+\  => ]
+
+    ctrl+,   ctrl+,        (match!)
+    ctrl+;   ctrl+.
+    ctrl+:   ctrl+/  => \
+    ctrl+!           => |  (no key event)
+    <                      (no key event)
+    >                      (no key event)
+
+  // tests
+  { "keys": ["shift+ctrl+\\"], "command": "copy" },
+  { "keys": ["shift+ctrl+\""], "command": "copy" },
+
+  { "keys": ["shift+ctrl+!"], "command": "copy" },
+  { "keys": ["shift+ctrl+#"], "command": "copy" },
+  { "keys": ["shift+ctrl+$"], "command": "copy" },
+  { "keys": ["shift+ctrl+%"], "command": "copy" },
+  { "keys": ["shift+ctrl+&"], "command": "copy" },
+  { "keys": ["shift+ctrl+'"], "command": "copy" },
+  { "keys": ["shift+ctrl+("], "command": "copy" },
+  { "keys": ["shift+ctrl+)"], "command": "copy" },
+  { "keys": ["shift+ctrl+*"], "command": "copy" },
+  { "keys": ["shift+ctrl++"], "command": "copy" },
+  { "keys": ["shift+ctrl+,"], "command": "copy" },
+  { "keys": ["shift+ctrl+-"], "command": "copy" },
+  { "keys": ["shift+ctrl+."], "command": "copy" },
+  { "keys": ["shift+ctrl+/"], "command": "copy" },
+  { "keys": ["shift+ctrl+:"], "command": "copy" },
+  { "keys": ["shift+ctrl+;"], "command": "copy" },
+  { "keys": ["shift+ctrl+<"], "command": "copy" },
+  { "keys": ["shift+ctrl+="], "command": "copy" },
+  { "keys": ["shift+ctrl+>"], "command": "copy" },
+  { "keys": ["shift+ctrl+?"], "command": "copy" },
+  { "keys": ["shift+ctrl+@"], "command": "copy" },
+  { "keys": ["shift+ctrl+["], "command": "copy" },
+  { "keys": ["shift+ctrl+]"], "command": "copy" },
+  { "keys": ["shift+ctrl+^"], "command": "copy" },
+  { "keys": ["shift+ctrl+_"], "command": "copy" },
+  { "keys": ["shift+ctrl+`"], "command": "copy" },
+  { "keys": ["shift+ctrl+{"], "command": "copy" },
+  { "keys": ["shift+ctrl+|"], "command": "copy" },
+  { "keys": ["shift+ctrl+}"], "command": "copy" },
+  { "keys": ["shift+ctrl+~"], "command": "copy" }
+
+  */
+
+]

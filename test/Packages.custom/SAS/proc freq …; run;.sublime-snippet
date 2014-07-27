@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[proc freq data=${1:toto};
+  tables $0 / list missing nocum nopercent;
+run;]]></content>
+	<tabTrigger>pf</tabTrigger>
+	<scope>source.sas</scope>
+	<description>proc freq …; run;</description>
+</snippet>

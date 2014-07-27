@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>using terms from ${1:application "${2:Finder}"}
+	${0:-- statements}
+end using terms from</string>
+	<key>name</key>
+	<string>using terms from [app] … end</string>
+	<key>scope</key>
+	<string>source.applescript</string>
+	<key>tabTrigger</key>
+	<string>terms</string>
+	<key>uuid</key>
+	<string>9E5E9C0B-471D-41FE-83CF-6BC51783B27F</string>
+</dict>
+</plist>

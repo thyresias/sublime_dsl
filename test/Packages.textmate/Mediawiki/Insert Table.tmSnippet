@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{| class="sortable wikitable" style="font-size: 100%; text-align: center;"
+! ${1:col1Name}
+! ${2:col2Name}
+! ${3:col3Name}
+|-
+| ${4:r1 $1} || ${5:r1 $2} || ${6:r1 $3}
+|-
+| ${7:r1 $1} || ${8:r1 $2} || ${9:r1 $3}
+|}</string>
+	<key>name</key>
+	<string>Insert Table</string>
+	<key>scope</key>
+	<string>text.html.mediawiki</string>
+	<key>tabTrigger</key>
+	<string>tab</string>
+	<key>uuid</key>
+	<string>C9B8FF0E-2336-4FC9-9A02-391C516BEED1</string>
+</dict>
+</plist>

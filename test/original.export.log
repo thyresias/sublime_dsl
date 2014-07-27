@@ -1,0 +1,98 @@
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*'
+test/DSL.original/ASP/ASP.tmLanguage.rb:53: warning: character class has duplicated range: /(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b/
+grammar 'C#': fragment 'statementRemainder' never used, not output
+test/DSL.original/C++/C++.tmLanguage.rb:28: warning: regular expression has ']' without escape: /\bdelete\b(\s*\[\])?|\bnew\b(?!])/
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+grammar 'C++': fragment 'block' never used, not output
+test/DSL.original-fixes/Clojure/Clojure.tmLanguage.rb:544: warning: regular expression has ']' without escape: /(?=[a-zA-Z+!\-_?0-9*~\#@'`\/.$=]+\s*])/
+grammar 'Clojure': fragment 'symbol_java_class' never used, not output
+duplicate item name 'Built-in constant' in theme "Amy"
+empty scope for item 'Library function' in theme "Amy"
+unnamed item in theme "Monokai Bright"
+unnamed item in theme "Monokai Bright"
+unnamed item in theme "Monokai"
+unnamed item in theme "Monokai"
+duplicate item name 'Ruby: Special Method' in theme "Solarized (dark)"
+empty scope for item 'PHP: Class Function' in theme "Solarized (dark)"
+duplicate item name 'Ruby: Special Method' in theme "Solarized (light)"
+empty scope for item 'PHP: Class Function' in theme "Solarized (light)"
+empty scope for item '- Meta' in theme "SpaceCadet"
+empty scope for item '-----------------------------------' in theme "Sunburst"
+empty scope for item '--------------------------------' in theme "Sunburst"
+empty scope for item '-----------------------------------' in theme "Twilight"
+duplicate item name 'Type name' in theme "Zenburnesque"
+test/DSL.original/D/D.tmLanguage.rb:106: warning: character class has duplicated range
+grammar 'D': fragment 'constant_placeholder' never used, not output
+grammar 'D': fragment 'statement-remainder' never used, not output
+test/DSL.original/Default/Default (Linux).keymap.rb:190: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (Linux).keymap.rb:209: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (Linux).keymap.rb:228: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (Linux).keymap.rb:245: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (Linux).keymap.rb:262: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/
+test/DSL.original/Default/Default (OSX).keymap.rb:155: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (OSX).keymap.rb:174: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (OSX).keymap.rb:193: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (OSX).keymap.rb:210: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (OSX).keymap.rb:227: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/
+test/DSL.original/Default/Default (Windows).keymap.rb:187: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (Windows).keymap.rb:206: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|>|$)/
+test/DSL.original/Default/Default (Windows).keymap.rb:225: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (Windows).keymap.rb:242: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|;|\}|$)/
+test/DSL.original/Default/Default (Windows).keymap.rb:259: warning: regular expression has ']' without escape: /^(?:\t| |\)|]|\}|$)/
+test/DSL.original/Erlang/Erlang.tmLanguage.rb:424: warning: character class has duplicated range
+test/DSL.original/Erlang/Erlang.tmLanguage.rb:434: warning: character class has duplicated range
+test/DSL.original/Erlang/Erlang.tmLanguage.rb:444: warning: character class has duplicated range
+test/DSL.original/Go/Go.tmLanguage.rb:200: warning: character class has duplicated range
+test/DSL.original/Go/Go.tmLanguage.rb:222: warning: character class has duplicated range
+grammar 'Groovy': fragment 'keyword' never used, not output
+test/DSL.original/HTML/HTML.tmLanguage.rb:70: warning: regular expression has ']' without escape: /]](?=>)/
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+grammar 'Java': fragment 'values' never used, not output
+test/DSL.original/Lisp/Lisp.tmLanguage.rb:21: warning: character class has duplicated range: /(#)(\w|[\\+-=<>'"&#])+/
+test/DSL.original/OCaml/camlp4.tmLanguage.rb:11: warning: regular expression has ']' without escape: /(\[<)(?=.*?>])/
+test/DSL.original/OCaml/camlp4.tmLanguage.rb:13: warning: regular expression has ']' without escape: /(?=>])/
+test/DSL.original/OCaml/camlp4.tmLanguage.rb:19: warning: regular expression has ']' without escape: /\[<|>]/
+test/DSL.original/OCaml/camlp4.tmLanguage.rb:30: warning: regular expression has ']' without escape: /(;)(?=\s*')|(?=\s*>])/
+test/DSL.original/OCaml/OCaml.tmLanguage.rb:194: warning: regular expression has ']' without escape: /(?=(\[<)(?![^\[]+?[^>]]))/
+test/DSL.original/OCaml/OCaml.tmLanguage.rb:196: warning: regular expression has ']' without escape: /(>])/
+test/DSL.original/OCaml/OCaml.tmLanguage.rb:309: warning: regular expression has ']' without escape: /(\|])/
+test/DSL.original/OCaml/OCaml.tmLanguage.rb:377: warning: regular expression has ']' without escape: /(?<!\||>)(])/
+test/DSL.original/OCaml/OCamllex.tmLanguage.rb:113: warning: regular expression has ']' without escape: /(])(?!\')/
+test/DSL.original/Perl/Perl.tmLanguage.rb:275: warning: character class has duplicated range: /(?=[^\t\s])/
+test/DSL.original/Perl/Perl.tmLanguage.rb:867: warning: character class has duplicated range
+test/DSL.original/Perl/Perl.tmLanguage.rb:872: warning: character class has duplicated range
+C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+test/DSL.original-fixes/Python/Regular Expressions (Python).tmLanguage.rb:29: warning: character class has duplicated range: /(?<=^|\s)#\s[[a-zA-Z0-9,. \t?!-:][^\x00-\x7F]]*$/
+grammar 'Python': fragment 'docstrings' never used, not output
+grammar 'Python': fragment 'function_name' never used, not output
+grammar 'Python': fragment 'strings' never used, not output
+test/DSL.original/Rails/Ruby on Rails.tmLanguage.rb:31: warning: character class has duplicated range
+test/DSL.original/Regular Expressions/RegExp.tmLanguage.rb:45: warning: invalid back reference: /\\(\n\d+|\k\w+|(?<!\|)\g\w+)/
+test/DSL.original/Regular Expressions/RegExp.tmLanguage.rb:45: warning: invalid subexp call: /\\(\n\d+|\k\w+|(?<!\|)\g\w+)/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:30: warning: character class has '-' without escape: /(\.\.)\s[A-z][A-z0-9-_]+(::)\s*$/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:30: warning: character class has duplicated range: /(\.\.)\s[A-z][A-z0-9-_]+(::)\s*$/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:100: warning: character class has ']' without escape: /^(\.\.)\s+((\[)(((#?)[^]]*?)|\*)(\]))\s+(.*)/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:119: warning: character class has duplicated range: /((\[#)[A-z0-9_]*(\]))(_)/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:146: warning: character class has duplicated range: /((\[)[A-z][A-z0-9_-]*(\]))(_)/
+test/DSL.original/RestructuredText/reStructuredText.tmLanguage.rb:167: warning: character class has duplicated range: /(:)[A-z][A-z0-9  =\s\t_]*(:)/
+test/DSL.original/Ruby/preferences.rb:44: warning: character class has duplicated range
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:73: warning: character class has duplicated range
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:581: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)HTML)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:595: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)SQL)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:609: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)CSS)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:623: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)CPP)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:637: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)C)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:651: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)(?:JS|JAVASCRIPT))\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:665: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)JQUERY)\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:679: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)(?:SH|SHELL))\b\1)/
+test/DSL.original-fixes/Ruby/Ruby.tmLanguage.rb:693: warning: character class has duplicated range: /(?><<-("?)((?:[_\w]+_|)RUBY)\b\1)/
+test/DSL.original/Ruby - alt/preferences.rb:43: warning: character class has duplicated range
+test/DSL.original/Scala/Scala.tmLanguage.rb:90: warning: character class has duplicated range
+test/DSL.original/Scala/Scala.tmLanguage.rb:192: warning: character class has duplicated range
+test/DSL.original/Textile/Textile.tmLanguage.rb:94: warning: character class has duplicated range
+test/DSL.original/Textile/Textile.tmLanguage.rb:159: warning: character class has ']' without escape
+test/DSL.original/Textile/Textile.tmLanguage.rb:164: warning: character class has ']' without escape
+test/DSL.original/Textile/Textile.tmLanguage.rb:169: warning: character class has ']' without escape
+test/DSL.original/Textile/Textile.tmLanguage.rb:174: warning: character class has ']' without escape
+test/DSL.original/Textile/Textile.tmLanguage.rb:179: warning: character class has ']' without escape
+test/DSL.original/XML/XML.tmLanguage.rb:85: warning: regular expression has ']' without escape: /]]>/

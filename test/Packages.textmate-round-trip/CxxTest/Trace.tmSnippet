@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_TRACE(${1:errno});</string>
+	<key>name</key>
+	<string>Trace</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>trace</string>
+	<key>uuid</key>
+	<string>6C9B6A78-A4CF-44E8-9192-B41AFDE748A4</string>
+</dict>
+</plist>

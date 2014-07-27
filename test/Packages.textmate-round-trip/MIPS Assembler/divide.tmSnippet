@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>div		${1:\$t0}, ${2:\$t1}			# $1 / $2
+mflo	${3:\$t2}					# $3 = floor($1 / $2) 
+mfhi	${4:\$t3}					# $4 = $1 mod $2 </string>
+	<key>name</key>
+	<string>divide</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>tabTrigger</key>
+	<string>div</string>
+	<key>uuid</key>
+	<string>D5F24791-FDDE-47FC-9FCC-66F7B77F1DD9</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_ASSERT_DELTA(${1:sqrt(4)}, ${2:2.0}, ${3:0.0001});</string>
+	<key>name</key>
+	<string>Assert Delta</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>ad</string>
+	<key>uuid</key>
+	<string>D2575BFF-8A9B-41C5-AA1C-483A3D86D0E3</string>
+</dict>
+</plist>

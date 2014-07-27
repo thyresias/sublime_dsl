@@ -1,0 +1,52 @@
+keymaps
+  allow grouping by
+  - same key
+  - same context
+
+keyboards
+
+  à revoir:
+
+  - c'est bien en termes de key_event & chr_event qu'il faut décrire
+    un clavier (cf. le Mac)
+
+  - les clés caractère disponibles sur le Sublime Keyboard sont non prédictibles
+
+    => si on importe un keymap sans spécifier de clavier, alors tout modifier+char
+       est accepté
+
+    => si on ne spécifie pas de clavier dans le DSL keymap, même chose
+       donc le Sublime Keyboard est un keyboard normal pour les clés nommées,
+       mais qui accepte n'importe quelle combinaison modifier + char
+
+  Définir un clavier, c'est définir un ensemble de key_events reconnus
+  par ce clavier. Côté Sublime Text, les key events valides sont définis
+  par les sublime modifiers + (une clé nommée ou un caractère). Donc
+  on n'a pas vraiment de Sublime Keyboard, plutôt une liste de key events
+  valides.
+
+  Classe KeyEvent? => probablement, et c'est la classe elle-même qui valide
+  les key_event_specs, et accepte n'importe quel <legal modifier> + <char>,
+  tandis que c'est le clavier qui refuse les keystrokes qui ne sont pas
+  fondés sur des keys (KeyEvent ne connaît que des noms de modifiers et
+  des noms de clés, et <character> est un nom de clé valide).
+
+  map_key is actually assigning a key_event
+  also, st_name is also assigning a key_event
+  key_events implicitely get additional modifiers
+    shift+num5 => clear
+    do ctrl+shift+num5 => ctrl+clear
+  but
+    space => chr ' ', key nil
+    while ctrl+space => ctrl+space
+  probable pb
+    map_key
+    map_char
+    map_modified
+
+unit tests for core_ext
+
+TextMate 2
+  read/spit out injections TextMate in grammars
+  handle "while" in begin/end rules (begin/while rule?)
+  handle injectionSelector in grammars (TODO.tmLanguage)

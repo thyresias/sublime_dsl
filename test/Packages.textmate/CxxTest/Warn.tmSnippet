@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_WARN(${2:"${1:TODO: Check invalid parameters}"});</string>
+	<key>name</key>
+	<string>Warn</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>warn</string>
+	<key>uuid</key>
+	<string>747DCDDB-5D40-414B-A908-47C353D79DB2</string>
+</dict>
+</plist>

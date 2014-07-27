@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>li		\$v0, 2		# system call #2 - print float
+la		\$a0, ${1:variable}
+syscall				# execute</string>
+	<key>name</key>
+	<string>print float</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>tabTrigger</key>
+	<string>print</string>
+	<key>uuid</key>
+	<string>72E29A82-6A08-4420-AC4F-19CCD8F96777</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+[
+  {
+    "caption": "Edit",
+    "mnemonic": "E",
+    "id": "edit",
+    "children": [
+      {"caption":"-","id":"clipboard"},
+      {"caption":"Cut","mnemonic":"C","command":"clipboard_manager_cut"},
+      {"caption":"Copy","mnemonic":"n","command":"clipboard_manager_copy"},
+      {"mnemonic":"P","command":"paste"},
+      {"mnemonic":"I","command":"paste_and_indent"},
+      {
+        "caption": "Clipboard History",
+        "children": [
+          {"caption":"Next & Paste","command":"clipboard_manager_next_and_paste"},
+          {"caption":"Previous & Paste","command":"clipboard_manager_previous_and_paste"},
+          {"caption":"Next","command":"clipboard_manager_next"},
+          {"caption":"Previous","command":"clipboard_manager_previous"},
+          {"caption":"Choose & Paste","command":"clipboard_manager_choose_and_paste"},
+          {"caption":"Show History","command":"clipboard_manager_show"},
+          {"caption":"Show Registers","command":"clipboard_manager_show_registers"}
+        ]
+      },
+      {"caption":"-"}
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>digraph G {
+	splines="FALSE";
+	/* Entities */
+	${1:shortName}  [label="${2:$1}", shape="${3|square,rectangle,circle,ellipse,triangle,plaintext,point,diamond,pentagon,hexagon,septagon,octagon,egg,trapezium,parallelogram,house,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d|}"${4:, URL="${5:http://en.wikipedia.org/wiki/John de Fries}"}]
+  var$0
+
+	/* Relationships */
+	${6:F1} &gt; $1${7:[label="${8:.63}"]}
+	/* Ranks */
+	{ rank=${9|same,min,max,# max is bottom|}; $1;};
+}
+</string>
+	<key>name</key>
+	<string>Graph Template</string>
+	<key>scope</key>
+	<string>source.dot</string>
+	<key>tabTrigger</key>
+	<string>graph</string>
+	<key>uuid</key>
+	<string>AD2AB606-D634-4DFD-9BDA-A53CD235E1C4</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display dialog ${1:"${2:text}"} ¬
+	default answer ${3:"${4:default answer}"}${5/.+/ ¬
+	with icon /}${5:1} ¬
+	buttons {"${7:Cancel}", "${6:OK}"} ¬
+	default button "$6"
+set button_pressed to button returned of result
+set text_typed to text returned of result
+if button_pressed is "$6" then
+	${8:-- statements for default button}${9/.+/
+else
+	/}${9:-- statements for cancel button}
+end if</string>
+	<key>name</key>
+	<string>Text Field</string>
+	<key>scope</key>
+	<string>source.applescript</string>
+	<key>tabTrigger</key>
+	<string>dialog</string>
+	<key>uuid</key>
+	<string>E4CD6ED0-73A9-48A5-95F1-74794A93401F</string>
+</dict>
+</plist>

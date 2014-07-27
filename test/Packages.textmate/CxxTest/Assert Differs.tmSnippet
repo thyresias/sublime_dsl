@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_ASSERT_DIFFERS(${1:x}, ${2:y});</string>
+	<key>name</key>
+	<string>Assert Differs</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>ad</string>
+	<key>uuid</key>
+	<string>1E71D2E4-F9DB-42BC-9515-C7093161F720</string>
+</dict>
+</plist>

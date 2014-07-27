@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_ASSERT_LESS_THAN(${1:x}, ${2:y});</string>
+	<key>name</key>
+	<string>Assert Less Than</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>alt</string>
+	<key>uuid</key>
+	<string>B1DF9AAD-DE46-4147-A04A-7AE31EFD026E</string>
+</dict>
+</plist>

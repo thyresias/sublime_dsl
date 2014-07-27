@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[wikipedia:${1/([^ ]*)( )(.*$)/$1(?1:_)$3/} ${1:$TM_SELECTED_TEXT}]</string>
+	<key>name</key>
+	<string>wikipedia</string>
+	<key>tabTrigger</key>
+	<string>w</string>
+	<key>uuid</key>
+	<string>75F09BF6-A264-49B3-9C71-D6DB32849A50</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>TS_ASSERT_RELATION(${1:R}, ${2:x}, ${3:y});</string>
+	<key>name</key>
+	<string>Assert Relation</string>
+	<key>scope</key>
+	<string>attr.test.cxxtest</string>
+	<key>tabTrigger</key>
+	<string>ar</string>
+	<key>uuid</key>
+	<string>3581E22A-2210-41F5-A674-F2EA49B1B4C6</string>
+</dict>
+</plist>

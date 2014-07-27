@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[data ${1:toto};
+  set ${2:toto};
+  $0
+run;]]></content>
+	<tabTrigger>data</tabTrigger>
+	<scope>source.sas</scope>
+	<description>data …; run;</description>
+</snippet>

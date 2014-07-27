@@ -1,0 +1,25 @@
+grammar Clojure: no 'begin' nor 'match': {"name"=>"meta.expr.clojure", "patterns"=>[{"include"=>"#keyword"}, {"include"=>"#operator"}, {"include"=>"#string"}, {"include"=>"#vector"}, {"include"=>"#map"}, {"include"=>"#set"}, {"include"=>"#metadata"}, {"include"=>"#number"}, {"include"=>"#symbol"}]}
+grammar Clojure: no 'begin' nor 'match': {}
+grammar Clojure: no 'begin' nor 'match': {"name"=>"meta.function.body", "patterns"=>[{"include"=>"#parameters_function"}, {"begin"=>"(?<=\\])", "end"=>"(?=\\))", "name"=>"meta.function.body.code.clojure", "patterns"=>[{"include"=>"#all"}]}]}
+duplicate item name 'Built-in constant' in theme "Amy"
+empty scope for item 'Library function' in theme "Amy"
+unnamed item in theme "Monokai Bright"
+unnamed item in theme "Monokai Bright"
+unnamed item in theme "Monokai"
+unnamed item in theme "Monokai"
+duplicate item name 'Ruby: Special Method' in theme "Solarized (dark)"
+empty scope for item 'PHP: Class Function' in theme "Solarized (dark)"
+duplicate item name 'Ruby: Special Method' in theme "Solarized (light)"
+empty scope for item 'PHP: Class Function' in theme "Solarized (light)"
+empty scope for item '- Meta' in theme "SpaceCadet"
+empty scope for item '-----------------------------------' in theme "Sunburst"
+empty scope for item '--------------------------------' in theme "Sunburst"
+empty scope for item '-----------------------------------' in theme "Twilight"
+duplicate item name 'Type name' in theme "Zenburnesque"
+grammar D: no 'begin' nor 'match': {"disabled"=>1, "patterns"=>[{"include"=>"source.regexp.python"}]}
+snippet html: name assigned from the file name
+grammar HTML: 'both' capture 1 => "punctuation.definition.tag.begin.html" moved to 'from' ('to' has 1 => "punctuation.definition.tag.end.html")
+grammar 'OCaml': 'beginCaptures' understood as 'captures' in 'match' rule: {"beginCaptures"=>{"1"=>{"name"=>"support.other.module.ocaml"}, "2"=>{"name"=>"punctuation.separator.module-reference.ocaml"}}, "match"=>"\\b([A-Z][a-zA-Z0-9'_]*)(\\.)", "name"=>"meta.module-reference.ocaml"}
+grammar Python: no 'begin' nor 'match': {"disabled"=>0, "patterns"=>[{"include"=>"source.regexp.python"}]}
+scope missing for snippet '#!/usr/bin/env', set to 'source.shell'
+grammar XML: 'both' capture 1 => "punctuation.definition.tag.begin.xml" moved to 'from' ('to' has 1 => "punctuation.definition.tag.end.xml")
