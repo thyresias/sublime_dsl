@@ -13,7 +13,7 @@ Once you have it, you wonder how you could do without it: all DSL statements
 are regular method calls, so you can use the power of Ruby instead of copy/paste,
 defining and calling your own methods.
 
-Refer to SYNTAX.md for more information on the DSLs.
+Refer to [SYNTAX](SYNTAX.md) for more information on the DSLs.
 
 ## Installation
 

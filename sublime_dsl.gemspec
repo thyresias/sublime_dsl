@@ -3,7 +3,7 @@
 h = Object.new  # helper object
 
 def h.doc_files
-  %w(README.md SYNTAX.md)
+  %w(README.md SYNTAX.md HISTORY.md)
 end
 
 def h.lib_files
