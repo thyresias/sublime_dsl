@@ -8,7 +8,7 @@ preferences 'Comments' => 'source.java' do
 end
 
 preferences 'Completion Rules' => 'source.java' do
-  # FIXME: (warning) nested repeat operator + and * was replaced with '*'
+  # FIXME: (warning) nested repeat operator '+' and '*' was replaced with '*' in regular expression
   cancel_completion %r/^\s*(\}?\s*(else|try|do|finally)|(class|package|enum)\s*[a-zA-Z_0-9]+*)$/
 end
 

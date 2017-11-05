@@ -25,9 +25,9 @@ end
 
 def h.runtime_deps
   %w(
-    json      1.8
-    nokogiri  1.6
-    rubyzip   1.1
+    json     ~> 2.1
+    nokogiri ~> 1.8
+    rubyzip  ~> 1.2
   )
 end
 
@@ -58,7 +58,7 @@ themes, grammars, snippets, key bindings, etc.
     '--title' << 'Sublime DSL' <<
     '--main' << h.doc_files.first
 
-  h.runtime_deps.each_slice(2) do |name, version|
-    s.add_runtime_dependency name, ["~>#{version}"]
+  h.runtime_deps.each_slice(3) do |name, op, version|
+    s.add_runtime_dependency name, ["#{op}#{version}"]
   end
 end

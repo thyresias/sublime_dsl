@@ -1,8 +1,8 @@
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*'
+test/DSL.original/AppleScript/AppleScript.tmLanguage.rb:64: warning: nested repeat operator '+' and '?' was replaced with '*' in regular expression
 test/DSL.original/ASP/ASP.tmLanguage.rb:53: warning: character class has duplicated range: /(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b/
 grammar 'C#': fragment 'statementRemainder' never used, not output
 test/DSL.original/C++/C++.tmLanguage.rb:28: warning: regular expression has ']' without escape: /\bdelete\b(\s*\[\])?|\bnew\b(?!])/
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+test/DSL.original/C++/preferences.rb:13: warning: nested repeat operator '+' and '*' was replaced with '*' in regular expression
 grammar 'C++': fragment 'block' never used, not output
 test/DSL.original-fixes/Clojure/Clojure.tmLanguage.rb:544: warning: regular expression has ']' without escape: /(?=[a-zA-Z+!\-_?0-9*~\#@'`\/.$=]+\s*])/
 grammar 'Clojure': fragment 'symbol_java_class' never used, not output
@@ -46,7 +46,7 @@ test/DSL.original/Go/Go.tmLanguage.rb:200: warning: character class has duplicat
 test/DSL.original/Go/Go.tmLanguage.rb:222: warning: character class has duplicated range
 grammar 'Groovy': fragment 'keyword' never used, not output
 test/DSL.original/HTML/HTML.tmLanguage.rb:70: warning: regular expression has ']' without escape: /]](?=>)/
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+test/DSL.original/Java/preferences.rb:12: warning: nested repeat operator '+' and '*' was replaced with '*' in regular expression
 grammar 'Java': fragment 'values' never used, not output
 test/DSL.original/Lisp/Lisp.tmLanguage.rb:21: warning: character class has duplicated range: /(#)(\w|[\\+-=<>'"&#])+/
 test/DSL.original/OCaml/camlp4.tmLanguage.rb:11: warning: regular expression has ']' without escape: /(\[<)(?=.*?>])/
@@ -61,7 +61,7 @@ test/DSL.original/OCaml/OCamllex.tmLanguage.rb:113: warning: regular expression 
 test/DSL.original/Perl/Perl.tmLanguage.rb:275: warning: character class has duplicated range: /(?=[^\t\s])/
 test/DSL.original/Perl/Perl.tmLanguage.rb:867: warning: character class has duplicated range
 test/DSL.original/Perl/Perl.tmLanguage.rb:872: warning: character class has duplicated range
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and * was replaced with '*'
+test/DSL.original/PHP/preferences.rb:13: warning: nested repeat operator '+' and '*' was replaced with '*' in regular expression
 test/DSL.original-fixes/Python/Regular Expressions (Python).tmLanguage.rb:29: warning: character class has duplicated range: /(?<=^|\s)#\s[[a-zA-Z0-9,. \t?!-:][^\x00-\x7F]]*$/
 grammar 'Python': fragment 'docstrings' never used, not output
 grammar 'Python': fragment 'function_name' never used, not output

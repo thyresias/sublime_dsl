@@ -52,7 +52,7 @@ language 'Movable Type (MT only)' => 'text.html.mt.pure' do
 
   fragment :"mt-container-tag" do
     rule 'meta.tag.mt.container.html' do
-      # FIXME: (warning) nested repeat operator + and ? was replaced with '*'
+      # FIXME: (warning) nested repeat operator '+' and '?' was replaced with '*' in regular expression
       from %r'(</?)([mM][tT]:?(?:\w+)?:?\w+)',
         1 => 'punctuation.definition.tag.mt',
         2 => 'entity.name.tag.mt'
@@ -64,7 +64,7 @@ language 'Movable Type (MT only)' => 'text.html.mt.pure' do
 
   fragment :"mt-variable-tag" do
     rule 'meta.tag.mt.variable.html' do
-      # FIXME: (warning) nested repeat operator + and ? was replaced with '*'
+      # FIXME: (warning) nested repeat operator '+' and '?' was replaced with '*' in regular expression
       from %r/(<)(\$[mM][tT]:?(?:\w+)?:?\w+)/,
         1 => 'punctuation.definition.tag.mt',
         2 => 'variable.other.mt'

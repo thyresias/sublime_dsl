@@ -46,7 +46,7 @@ keyboard 'AZERTY-fr-FR-v1 (OSX)' do
     azertyuiop^$  æÂê®†Úºîœπô€   ÆÅÊ‚™ŸªïŒ∏Ô¥
     qsdfghjklmù`  ‡Ò∂ƒﬁÌÏÈ¬µÙ@   Ω∑∆·ﬂÎÍË|Ó‰#
     <wxcvbn,;:=   ≤‹≈©◊ß~∞…÷≠    ≥›⁄¢√∫ı¿•\±
-  !.each do |keys, alt, shift_alt|
+  !.each_slice(3) do |keys, alt, shift_alt|
     keys.chars.each_with_index do |c,i|
       map_char "alt+#{c}" => alt[i]
       map_char "shift+alt+#{c}" => shift_alt[i]

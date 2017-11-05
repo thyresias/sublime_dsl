@@ -10,7 +10,7 @@ test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:286: warning: character class 
 test/DSL.textmate/Active4D/Active4D.tmLanguage.rb:293: warning: character class has duplicated range: /(\$)[\w_]+({(".+?"|\d+|\$[\w_]+)})*(\[\[\d+\]\])*/
 test/DSL.textmate/Active4D/HTML (Active4D).tmLanguage.rb:51: warning: regular expression has ']' without escape: /]](?=>)/
 test/DSL.textmate/Active4D/HTML (Active4D).tmLanguage.rb:204: warning: character class has '-' without escape: /\b([a-zA-Z-:]+)/
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*'
+test/DSL.textmate/AppleScript/AppleScript.tmLanguage.rb:48: warning: nested repeat operator '+' and '?' was replaced with '*' in regular expression
 snippet Check that UI Scripting is Enabled: no tab trigger nor key equivalent
 snippet Select Menu Item with UI Scripting: no tab trigger nor key equivalent
 snippet Split/Join Helper Functions: no tab trigger nor key equivalent
@@ -93,8 +93,8 @@ test/DSL.textmate/Matlab/M.tmLanguage.rb:67: warning: character class has duplic
 grammar Octave: no such fragment: "#double_quote"
 grammar Mediawiki: no such fragment: "#tag-stuff"
 grammar 'Mediawiki': fragment 'entities' never used, not output
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*': /(<\/?)([mM][tT]:?(?:\w+)?:?\w+)/
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator + and ? was replaced with '*': /(<)(\$[mM][tT]:?(?:\w+)?:?\w+)/
+test/DSL.textmate/Movable Type/Movable Type (MT only).tmLanguage.rb:56: warning: nested repeat operator '+' and '?' was replaced with '*' in regular expression: /(<\/?)([mM][tT]:?(?:\w+)?:?\w+)/
+test/DSL.textmate/Movable Type/Movable Type (MT only).tmLanguage.rb:68: warning: nested repeat operator '+' and '?' was replaced with '*' in regular expression: /(<)(\$[mM][tT]:?(?:\w+)?:?\w+)/
 test/DSL.textmate/Movable Type/Movable Type (MT only).tmLanguage.rb:119: warning: character class has '-' without escape: /\b([a-zA-Z-_:]+)/
 grammar Movable Type (MT only): no such fragment: "#smarty"
 test/DSL.textmate/Movable Type/Movable Type.tmLanguage.rb:143: warning: character class has '-' without escape: /\b([a-zA-Z-_:]+)/
@@ -173,8 +173,8 @@ test/DSL.textmate/Slate/Slate.tmLanguage.rb:119: warning: character class has du
 grammar 'Slate': fragment 'binary-selector' never used, not output
 grammar 'Slate': fragment 'escaped-char' never used, not output
 grammar 'Slate': fragment 'unary-selector' never used, not output
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator ? and * was replaced with '*': /^<<(.?*)>>=|\\begin\{.*\}/
-C:/home/thierry/configs/tools/lib/sublime_dsl/sublime_text/package/dsl_reader.rb:15: warning: nested repeat operator ? and * was replaced with '*': /^@(.?*)$|\\end\{.*\}/
+test/DSL.textmate/SWeave/preferences.rb:12: warning: nested repeat operator '?' and '*' was replaced with '*' in regular expression: /^<<(.?*)>>=|\\begin\{.*\}/
+test/DSL.textmate/SWeave/preferences.rb:14: warning: nested repeat operator '?' and '*' was replaced with '*' in regular expression: /^@(.?*)$|\\end\{.*\}/
 snippet Convert Tabs To Table: no tab trigger nor key equivalent
 test/DSL.textmate/Textile/Textile.tmLanguage.rb:94: warning: character class has duplicated range
 test/DSL.textmate/Textile/Textile.tmLanguage.rb:159: warning: character class has ']' without escape

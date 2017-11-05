@@ -12,7 +12,7 @@ require_relative 'sublime_dsl/cli'
 
 module SublimeDSL
 
-  VERSION = '0.1.2'
+  VERSION = '0.1.3'
 
   class Error < StandardError; end
   class OptionError < Error; end

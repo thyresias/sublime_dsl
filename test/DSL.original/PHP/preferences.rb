@@ -9,7 +9,7 @@ preferences 'Comments' => 'source.php' do
 end
 
 preferences 'Completion Rules' => 'source.php' do
-  # FIXME: (warning) nested repeat operator + and * was replaced with '*'
+  # FIXME: (warning) nested repeat operator '+' and '*' was replaced with '*' in regular expression
   cancel_completion %r/^\s*(\}?\s*(else|do|try)|(class|function)\s*[a-zA-Z_0-9]+*)$/
 end
 

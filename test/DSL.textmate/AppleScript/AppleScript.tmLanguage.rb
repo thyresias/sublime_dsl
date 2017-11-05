@@ -38,7 +38,7 @@ language 'AppleScript' => 'source.applescript' do
       # This is not a very well-designed rule.  For now,
       # we can leave it like this though, as it sorta works.
       #
-      # FIXME: (warning) nested repeat operator + and ? was replaced with '*'
+      # FIXME: (warning) nested repeat operator '+' and '?' was replaced with '*' in regular expression
       from %r/^(?x)
             \s*(to|on)\s+           # "on" or "to"
             (\w+)              # function name

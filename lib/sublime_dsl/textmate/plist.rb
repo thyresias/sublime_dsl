@@ -93,13 +93,13 @@ module TextMate
 
       def dump_object(object, indent)
         case object
-        when String;      dump_string(object, indent)
-        when Fixnum;      dump_fixnum(object, indent)
-        when Hash;        dump_hash(object, indent)
-        when Array;       dump_array(object, indent)
-        when TrueClass;   "#{indent}<true/>\n"
-        when FalseClass;  "#{indent}<false/>\n"
-        else; raise Error, "unexpected type: #{object.class.name}"
+        when String then      dump_string(object, indent)
+        when Integer then     dump_integer(object, indent)
+        when Hash then        dump_hash(object, indent)
+        when Array then       dump_array(object, indent)
+        when TrueClass then   "#{indent}<true/>\n"
+        when FalseClass then  "#{indent}<false/>\n"
+        else raise Error, "unexpected type: #{object.class.name}"
         end
       end
 
@@ -107,7 +107,7 @@ module TextMate
         "#{indent}<string>" << h(str) << "</string>\n"
       end
 
-      def dump_fixnum(num, indent)
+      def dump_integer(num, indent)
         "#{indent}<integer>#{num}</integer>\n"
       end
 

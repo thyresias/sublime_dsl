@@ -267,8 +267,15 @@ module TextMate
       end
 
       def convert_object(object)
-        k = object.class.name.split('::').last.snake_case
-        send "convert_#{k}", object
+        case object
+        when Array then convert_array object
+        when Hash then convert_hash object
+        when Tools::RegexpWannabe then object.to_s
+        # TODO: booleans as 1/0 or true/false?
+        when TrueClass then 1
+        when FalseClass then 0
+        else object  # String, Integer, NilClass
+        end
       end
 
       def convert_array(list)
@@ -280,18 +287,6 @@ module TextMate
         h.each_pair { |k,v| out[k] = convert_object(v) }
         out
       end
-
-      def convert_regexp_wannabe(re)
-        re.to_s
-      end
-
-      def convert_string(v) v end
-      def convert_fixnum(v) v end
-      def convert_nil_class(v) v end
-
-      # TODO: booleans as 1/0 or true/false?
-      def convert_true_class(v) 1 end
-      def convert_false_class(v) 0 end
 
     end
 

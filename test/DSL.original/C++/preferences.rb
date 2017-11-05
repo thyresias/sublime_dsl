@@ -9,7 +9,7 @@ preferences 'Comments' => 'source.c, source.c++, source.objc, source.objc++', fi
 end
 
 preferences 'Completion Rules' => 'source.c, source.c++, source.objc, source.objc++' do
-  # FIXME: (warning) nested repeat operator + and * was replaced with '*'
+  # FIXME: (warning) nested repeat operator '+' and '*' was replaced with '*' in regular expression
   cancel_completion %r/^\s*(\}?\s*(else|try|do)|(class|struct|enum|namespace)\s*[a-zA-Z_0-9]+*)$/
 end
 

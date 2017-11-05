@@ -99,7 +99,7 @@ module Tools
     end
 
     def try_conversion
-      @warnings = capture_warnings { @regexp = Regexp.new(source) }
+      @warnings = capture_warnings { @regexp = Regexp.new(source.dup) }
       @backref = nil unless source =~ /§[1-9]/
     rescue RegexpError => ex
       msg = ex.message
@@ -122,7 +122,7 @@ module Tools
       end
 
       begin
-        @warnings = capture_warnings { @regexp = Regexp.new(source) }
+        @warnings = capture_warnings { @regexp = Regexp.new(source.dup) }
       rescue RegexpError => ex
         @error = ex.message
       end

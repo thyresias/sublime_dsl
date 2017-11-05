@@ -48,7 +48,10 @@ module SublimeText
         # map_char and map_key call this method while @sublime is not yet set
         unless @defining_sublime
           @defining_sublime = true
-          # FIXME: space => key_event nil, but generates a key_event when modified
+          # FIXME: space => key_event nil, but generates a key_event when modified,
+          # because it's a character
+          # => put it in SUBLIME_ALIAS_MAP, but remember it was named 'space' when
+          # generating its to_s ('ctrl+ ' will generate problems...)
           kb.map_char 'space' => ' ', key_event: nil
           @defining_sublime = false
         end

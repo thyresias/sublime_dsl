@@ -8,9 +8,9 @@ preferences 'comment preferences' => 'text.sweave' do
 end
 
 preferences 'Folding' => 'text.tex.latex.sweave' do
-  # FIXME: (warning) nested repeat operator ? and * was replaced with '*'
+  # FIXME: (warning) nested repeat operator '?' and '*' was replaced with '*' in regular expression
   folding_start_marker %r/^<<(.?*)>>=|\\begin\{.*\}/
-  # FIXME: (warning) nested repeat operator ? and * was replaced with '*'
+  # FIXME: (warning) nested repeat operator '?' and '*' was replaced with '*' in regular expression
   folding_stop_marker %r/^@(.?*)$|\\end\{.*\}/
   uuid "0D57AA28-9895-44AC-8B25-CF2EA38245CA"
 end
